@@ -1,0 +1,371 @@
+{
+  "source": {
+    "name": "阳间斗技",
+    "url": "https://yysrank.win/query/team",
+    "updatedAt": "2026-11-16 02:00:55",
+    "filter": "PvP · Danh sĩ từ 0 sao · bản từ 10/10 · tối thiểu 100 lượt chọn",
+    "metric": "外战胜率"
+  },
+  "teams": [
+    {
+      "id": "yysrank-20261116-01",
+      "rank": 1,
+      "winRate": 80.41,
+      "picks": 148,
+      "slots": [
+        "330",
+        "362",
+        "575",
+        "578",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-02",
+      "rank": 2,
+      "winRate": 78.77,
+      "picks": 179,
+      "slots": [
+        "330",
+        "358",
+        "362",
+        "575",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-03",
+      "rank": 3,
+      "winRate": 78.21,
+      "picks": 156,
+      "slots": [
+        "344",
+        "578",
+        "592",
+        "596",
+        "604",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-04",
+      "rank": 4,
+      "winRate": 77.63,
+      "picks": 152,
+      "slots": [
+        "330",
+        "362",
+        "385",
+        "575",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-05",
+      "rank": 5,
+      "winRate": 76.11,
+      "picks": 180,
+      "slots": [
+        "330",
+        "362",
+        "575",
+        "597",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-06",
+      "rank": 6,
+      "winRate": 75.76,
+      "picks": 132,
+      "slots": [
+        "344",
+        "578",
+        "592",
+        "596",
+        "598",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-07",
+      "rank": 7,
+      "winRate": 75.7,
+      "picks": 107,
+      "slots": [
+        "392",
+        "570",
+        "590",
+        "597",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-08",
+      "rank": 8,
+      "winRate": 75.62,
+      "picks": 201,
+      "slots": [
+        "330",
+        "345",
+        "575",
+        "590",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-09",
+      "rank": 9,
+      "winRate": 75.24,
+      "picks": 105,
+      "slots": [
+        "362",
+        "385",
+        "565",
+        "586",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-10",
+      "rank": 10,
+      "winRate": 74.8,
+      "picks": 127,
+      "slots": [
+        "288",
+        "568",
+        "583",
+        "591",
+        "596",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-11",
+      "rank": 11,
+      "winRate": 74.29,
+      "picks": 105,
+      "slots": [
+        "272",
+        "341",
+        "385",
+        "585",
+        "597",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-12",
+      "rank": 12,
+      "winRate": 73.68,
+      "picks": 133,
+      "slots": [
+        "568",
+        "583",
+        "596",
+        "599",
+        "603",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-13",
+      "rank": 13,
+      "winRate": 73.17,
+      "picks": 164,
+      "slots": [
+        "573",
+        "575",
+        "592",
+        "596",
+        "598",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-14",
+      "rank": 14,
+      "winRate": 73.01,
+      "picks": 515,
+      "slots": [
+        "358",
+        "603",
+        "604",
+        "608",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-15",
+      "rank": 15,
+      "winRate": 72.97,
+      "picks": 111,
+      "slots": [
+        "341",
+        "345",
+        "393",
+        "550",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-16",
+      "rank": 16,
+      "winRate": 72.43,
+      "picks": 185,
+      "slots": [
+        "341",
+        "393",
+        "561",
+        "592",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-17",
+      "rank": 17,
+      "winRate": 72.34,
+      "picks": 100,
+      "slots": [
+        "355",
+        "550",
+        "565",
+        "586",
+        "592",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-18",
+      "rank": 18,
+      "winRate": 72.09,
+      "picks": 129,
+      "slots": [
+        "330",
+        "551",
+        "575",
+        "597",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-19",
+      "rank": 19,
+      "winRate": 71.85,
+      "picks": 920,
+      "slots": [
+        "341",
+        "362",
+        "385",
+        "393",
+        "607",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "yysrank-20261116-20",
+      "rank": 20,
+      "winRate": 71.7,
+      "picks": 583,
+      "slots": [
+        "341",
+        "345",
+        "585",
+        "597",
+        "598",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

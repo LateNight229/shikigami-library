@@ -1,5 +1,19 @@
 /* Anonymous player sessions and a separate admin session; no secret key in client. */
-const cloud = {guest:null, admin:null, list:[], adminRows:[], sort:'recent', offset:0, search:'', loading:false, error:'', tab:'mine', adminOpen:false, expanded:null};
+const cloud = {guest:null, admin:null, list:[], adminRows:[], sort:'recent', offset:0, search:'', loading:false, error:'', tab:'mine', adminOpen:false, expanded:null, curated:null, curatedLoading:false, curatedError:false};
+async function cloudCuratedLoad() {
+  if (cloud.curated || cloud.curatedLoading) return;
+  cloud.curatedLoading=true; cloud.curatedError=false; drawTeamList();
+  try { cloud.curated=await getJson('curated/yysrank-top20.json'); }
+  catch { cloud.curatedError=true; }
+  finally { cloud.curatedLoading=false; if(state.view==='teams' && cloud.tab==='curated' && !cloud.adminOpen)drawTeamList(); }
+}
+function cloudCuratedHtml() {
+  if(cloud.curatedLoading)return '<div class="message">Đang tải đội mẫu…</div>';
+  if(cloud.curatedError)return '<div class="message">Không tải được đội mẫu. Hãy kiểm tra kết nối và thử lại.</div><button type="button" data-curated-retry>Thử lại</button>';
+  if(!cloud.curated)return '<div class="message">Chưa tải đội mẫu.</div>';
+  const {source,teams}=cloud.curated;
+  return `<p class="curated-source">20 đội PvP xếp theo tỷ lệ thắng (外战胜率) của <a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.name)} ↗</a> · ${esc(source.filter)}<br>Dữ liệu nguồn cập nhật: ${esc(source.updatedAt)} (giờ hiển thị tại nguồn). Đây là thứ hạng thống kê, không phải phân loại T0/T1; chưa có ngự hồn hoặc dự bị.</p>` + teams.map(t=>`<article class="saved-team curated-team"><h3>#${esc(t.rank)} · Đội mẫu PvP</h3><p>Tỷ lệ thắng: <strong>${esc(t.winRate)}%</strong> · ${esc(t.picks)} lượt chọn</p><div class="curated-heroes">${t.slots.slice(0,5).map(id=>{const hero=teamHero(id);const name=hero?localName(hero.name):'Không tìm thấy thức thần';return `<div><img loading="lazy" src="${image('shishen',id)}" alt=""><span>${esc(name)}</span></div>`;}).join('')}</div><button type="button" data-curated-copy="${esc(t.id)}">Dùng đội</button></article>`).join('');
+}
 function cloudClient() {
   if (!window.supabase || !window.HEIAN_CLOUD) throw Error('Không tải được dịch vụ cộng đồng.');
   if (!cloud.guest) cloud.guest = window.supabase.createClient(HEIAN_CLOUD.url,HEIAN_CLOUD.publishableKey,{auth:{storageKey:'heian-guest-auth',persistSession:true}});
@@ -47,9 +61,11 @@ function cloudAdminHtml(){
 }
 function showCloudMessage(message){teamNotice=message;if(state.view==='teams')drawTeamList();else if(state.view==='team')drawTeam();}
 document.addEventListener('click',async e=>{
-  const target=e.target.closest('[data-cloud-tab],[data-cloud-search],[data-cloud-view],[data-cloud-page],[data-cloud-refresh],[data-cloud-like],[data-cloud-copy],[data-cloud-admin],[data-cloud-moderate],[data-cloud-signout],[data-share-team],[data-share-cancel],[data-share-confirm],[data-admin-cancel]');
+  const target=e.target.closest('[data-cloud-tab],[data-cloud-search],[data-cloud-view],[data-cloud-page],[data-cloud-refresh],[data-cloud-like],[data-cloud-copy],[data-curated-copy],[data-curated-retry],[data-cloud-admin],[data-cloud-moderate],[data-cloud-signout],[data-share-team],[data-share-cancel],[data-share-confirm],[data-admin-cancel]');
   if(!target)return;
-  if(target.dataset.cloudTab){cloud.tab=target.dataset.cloudTab;cloud.adminOpen=false;teamNotice='';if(cloud.tab==='community')await cloudLoad();else drawTeamList();}
+  if(target.dataset.cloudTab){cloud.tab=target.dataset.cloudTab;cloud.adminOpen=false;teamNotice='';if(cloud.tab==='community')await cloudLoad();else if(cloud.tab==='curated'){if(cloud.curated)drawTeamList();else await cloudCuratedLoad();}else drawTeamList();}
+  else if(target.hasAttribute('data-curated-retry'))await cloudCuratedLoad();
+  else if(target.dataset.curatedCopy){const t=cloud.curated?.teams.find(x=>x.id===target.dataset.curatedCopy);if(t && (!teamSlots.some(Boolean) || confirm('Mở bản sao đội này? Hãy lưu đội đang chỉnh sửa trước nếu cần.'))){teamSlots=t.slots.slice();teamName=`Đội mẫu PvP #${t.rank}`;teamNote=`Theo 阳间斗技: tỷ lệ thắng ${t.winRate}%, ${t.picks} lượt chọn. Dữ liệu 16/11/2026.`;teamCategory='pvp';currentTeamId=null;teamTarget=null;selectedSlots=[];saveTeam();document.querySelector('[data-view=team]').click();}}
   else if(target.hasAttribute('data-cloud-search')){cloud.search=document.querySelector('#cloud-search').value.trim();cloud.offset=0;await cloudLoad();}
   else if(target.dataset.cloudView){cloud.expanded=cloud.expanded===target.dataset.cloudView?null:target.dataset.cloudView;drawTeamList();}
   else if(target.dataset.cloudPage){cloud.offset=Math.max(0,cloud.offset+(target.dataset.cloudPage==='next'?20:-20));await cloudLoad();}
