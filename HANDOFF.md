@@ -14,3 +14,17 @@
 - Đã nối giao diện: tìm VI/EN/ZH, chỉ số + grade, skills + upgrades và 70 ngự hồn. Chưa có ảnh ngự hồn, build theo thức thần hoặc guide được xác minh. Không làm sort/team/đề xuất cộng đồng/news ở lượt này.
 - Dữ liệu chuẩn hóa gồm ID ổn định, stat value dạng số, grade, đơn vị percent; sẵn sàng để thiết kế sort/team/loadout sau. Kiểm tra snapshot chưa đồng nghĩa xác minh game hiện tại.
 - Trạng thái chưa commit/push/publish. Các mốc nhánh/đếm trước đó ở trên là lịch sử, thay bằng checkpoint này khi tiếp tục.
+
+## Checkpoint sắp xếp thức thần — 16/11/2026
+- Nhánh feat/add-sort. Danh mục có chọn Máu, Công, Thủ, Tốc độ, Chí mạng, Sát thương chí mạng; tăng/giảm; đặt lại; số hiển thị cùng danh sách. Kết hợp tìm và lọc rarity, không dùng cho ngự hồn.
+- So sánh số, % dùng số điểm phần trăm, thiếu giá trị xuống cuối và đồng điểm giữ thứ tự catalog. Trạng thái chỉ trong phiên, không lưu lâu dài; chưa lọc theo grade hoặc tạo team.
+- Kiểm tra node tests/test_sort.cjs: pass; kiểm tra in-app HP tăng/giảm, kết hợp SP và ẩn menu khi xem ngự hồn: pass. Chưa commit/push; bản mẫu chờ người dùng duyệt.
+
+## Checkpoint sửa danh mục, sort và ảnh — 16/11/2026
+- Chọn thức thần bằng handler riêng trên danh sách, đóng danh mục và sort. Chọn trường sort, chiều sort hoặc đặt lại sẽ đóng menu sort; mở lại để chọn chiều khác.
+- Ảnh nhỏ từ CDN được hiển thị trong lúc ảnh lớn tải; tải trước 2 nhân vật lân cận, giữ tối đa 8 lượt tải trong bộ nhớ. Ảnh vẫn phụ thuộc mạng/CDN; không khẳng định tốc độ tải mạng tăng hay kiểm thử đủ mọi ảnh.
+- Kiểm tra in-app: chọn HP đóng menu, 3 kết quả đầu giảm dần; chọn một thức thần ẩn danh mục và aria-expanded=false; thấy ảnh nhỏ trước rồi ảnh lớn 830px. node --check và test_sort pass. Chưa commit/push/publish.
+
+## Checkpoint next/previous theo kết quả — 16/11/2026
+- Nút trước/sau dùng cùng danh sách sau tìm kiếm, lọc rarity và sort; vòng từ cuối về đầu. Nếu nhân vật hiện tại không thuộc kết quả thì next chọn đầu, previous chọn cuối; danh sách rỗng không đổi.
+- Node test sort/neighbor pass. In-app: HP giảm dần #564 → #606, sau lọc SP #595 → #612 đúng. Chưa commit/push/publish.
