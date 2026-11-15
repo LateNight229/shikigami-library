@@ -8,3 +8,9 @@
 - Cách xem: từ repo chạy `python -m http.server 8768 --bind 127.0.0.1`, mở `http://127.0.0.1:8768/`. Kiểm tra cú pháp `node --check app.js`. Không mở `index.html` trực tiếp vì trang fetch JSON.
 - Tiếp theo: duyệt giao diện và hoàn thiện nguồn dữ liệu có provenance, kiểm thử ảnh, thu thập/dịch chỉ số, skills và ngự hồn. Không công bố tự động nếu chưa xác minh độ chính xác/quyền. Chưa cấu hình GitHub Pages.
 - Repo cũ `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji` giữ bot news và bản snapshot; website từ nay cập nhật tại repo này. Không tự push/merge khi chưa được yêu cầu.
+
+## Checkpoint nhập dữ liệu — 15/11/2026
+- Nhánh làm việc feat/add-all-data. Đã nhập 270 thức thần, 851 skill, 70 ngự hồn, 526 glossary từ snapshot người dùng; xem DATA.md để tái tạo và biết giới hạn.
+- Đã nối giao diện: tìm VI/EN/ZH, chỉ số + grade, skills + upgrades và 70 ngự hồn. Chưa có ảnh ngự hồn, build theo thức thần hoặc guide được xác minh. Không làm sort/team/đề xuất cộng đồng/news ở lượt này.
+- Dữ liệu chuẩn hóa gồm ID ổn định, stat value dạng số, grade, đơn vị percent; sẵn sàng để thiết kế sort/team/loadout sau. Kiểm tra snapshot chưa đồng nghĩa xác minh game hiện tại.
+- Trạng thái chưa commit/push/publish. Các mốc nhánh/đếm trước đó ở trên là lịch sử, thay bằng checkpoint này khi tiếp tục.
