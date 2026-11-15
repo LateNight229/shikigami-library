@@ -1,0 +1,17 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const modulePath = fs.existsSync(path.join(__dirname,'team-store.js')) ? './team-store.js' : '../team-store.js';
+const store = require(modulePath);
+const memory = initial => {const map=new Map(Object.entries(initial||{}));return {getItem:k=>map.has(k)?map.get(k):null,setItem:(k,v)=>map.set(k,v)};};
+const oldSlots=['200',null,'593',null,null], db=memory({[store.LEGACY]:JSON.stringify({version:1,slots:oldSlots})});
+const teams=store.read(db);
+assert.equal(teams.length,1);assert.deepEqual(teams[0].slots.slice(0,5),oldSlots);assert.equal(teams[0].slots.length,10);
+assert.deepEqual(store.swap(['a','b',null],0,1),['b','a',null]);
+assert.deepEqual(store.swap(['a','b',null],0,2),[null,'b','a']);
+assert.deepEqual(store.select([1,2],3),[2,3]);
+assert.deepEqual(store.select([1,2],1),[2]);
+assert.equal(store.read(db).length,1);
+assert.throws(()=>store.read(memory({[store.KEY]:'bad-json'})));
+assert.throws(()=>store.read(memory({[store.KEY]:JSON.stringify({version:1,teams:[{id:'x',name:'x',slots:['bad']}]})})));
+console.log('OK: migration, swap, empty swap, reload and corrupt storage.');

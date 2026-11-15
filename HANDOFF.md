@@ -51,3 +51,11 @@
 - Nhánh feat/create-team, đã nối 126 review và 209 đề xuất của 83 thức thần từ dữ liệu người dùng đã cào. Snapshot nằm community/reviews.json và community/recommendations.json; không đưa user_id vào website. Nguồn, ngày, độ tin cậy theo nguồn được hiển thị; không có dữ liệu thì báo trống, lỗi tải báo riêng.
 - Trình duyệt: #200 hiển thị đề xuất và trạng thái không review, #593 hiển thị review/điểm/nguồn ở chế độ tối. node tests/test_community.cjs và node tests/test_sort.cjs pass. Chưa kiểm thử toàn bộ record và mobile. Snapshot chưa tự cập nhật; nguồn và nội dung chưa xác minh độc lập, quyền sử dụng cần xem xét trước xuất bản.
 - Chưa commit/push/merge/publish; dừng chờ người dùng duyệt.
+
+## Mốc đội cá nhân — 16/11/2026
+- Đang triển khai/chờ duyệt trên feat/create-team: tên, ghi chú, loại đội, swap giữa 10 ô, danh sách Đội hình của tôi, lưu nhiều đội local và xuất/nhập JSON; giữ đội cũ qua migration. Chưa làm cộng đồng, like, admin hay cloud/đội mẫu.
+- node tests/test_team_store.cjs, tests/test_sort.cjs, tests/test_community.cjs pass; trình duyệt đã thử nhận đội cũ và di chuyển ô 1 sang ô 2, thanh tốc thay đổi. Chưa thử đầy đủ lưu nhiều đội, xuất/nhập, mobile và lỗi storage trên trình duyệt; cần hoàn thiện kiểm tra trước khi kết luận done. Chưa commit/push/merge.
+
+## Sửa swap và thông báo lưu — 16/11/2026
+- Chọn hai ô để sáng; chọn ô thứ ba bỏ ô đầu, nút Swap giữa hai hàng hoặc phím Space thực hiện đổi, hỗ trợ ô trống. Thông báo lưu gần nút lưu; thu gọn header và sửa danh mục che nội dung màn hẹp.
+- Đã thử nút Swap, Space, lưu thành công và tên trống trên trình duyệt; node tests/test_team_store.cjs, test_sort.cjs, test_community.cjs pass. Dữ liệu thử 'Đội thử swap' lưu trong trình duyệt origin localhost:8770. Chưa kiểm tra lỗi storage thực tế, cảm ứng/mobile toàn diện; chưa commit/push.
