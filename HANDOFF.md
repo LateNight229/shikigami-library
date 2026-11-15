@@ -42,3 +42,7 @@
 ## Cập nhật đội dự bị — 16/11/2026
 - Thêm 5 ô dự bị độc lập; chọn ô trước rồi chọn thức thần, không đưa dự bị vào thứ tự hành động. Đội đã lưu bản 5 ô được đọc tương thích; lưu bản 10 ô. Nút ba gạch mở tab mới ?hero=ID, app chọn đúng thức thần khi tải.
 - Thu hẹp panel tốc và dàn 5 ô mỗi hàng; màn rất hẹp có thể cuộn ngang. Kiểm tra trình duyệt: thêm thức thần vào ô 6 không thêm vào thứ tự hành động; mở tab mới hiển thị đúng #593. node --check app.js/team.js và node tests/test_sort.cjs pass; chưa kiểm thử mobile toàn diện. Chưa commit/push/merge.
+
+## Chế độ sáng/tối — 16/11/2026
+- Nút cạnh tìm kiếm chuyển light/dark, ghi nhớ trong localStorage theo origin; không có storage thì dùng trong phiên. Bảng màu tối riêng cho thức thần, kỹ năng, danh mục, ngự hồn, tạo đội, tooltip và sort.
+- Kiểm tra trực quan dark ở 3 tab tại viewport ~796px, nút không bị cắt, reload giữ dark; node --check theme.js và node tests/test_sort.cjs pass. Chưa kiểm thử mobile toàn diện. Nhánh feat/create-team; chưa commit/push/merge.
