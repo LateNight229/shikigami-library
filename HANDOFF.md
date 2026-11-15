@@ -59,3 +59,9 @@
 ## Sửa swap và thông báo lưu — 16/11/2026
 - Chọn hai ô để sáng; chọn ô thứ ba bỏ ô đầu, nút Swap giữa hai hàng hoặc phím Space thực hiện đổi, hỗ trợ ô trống. Thông báo lưu gần nút lưu; thu gọn header và sửa danh mục che nội dung màn hẹp.
 - Đã thử nút Swap, Space, lưu thành công và tên trống trên trình duyệt; node tests/test_team_store.cjs, test_sort.cjs, test_community.cjs pass. Dữ liệu thử 'Đội thử swap' lưu trong trình duyệt origin localhost:8770. Chưa kiểm tra lỗi storage thực tế, cảm ứng/mobile toàn diện; chưa commit/push.
+
+## Đội cộng đồng và quản trị — 16/11/2026
+- IN_PROGRESS/chờ người dùng duyệt. Repo feat/create-team: người dùng tự chia sẻ đội qua xác nhận, xem danh sách Cộng đồng, sắp xếp mới/like, tìm tên, phân trang, xem dự bị, dùng bản sao; Admin đăng nhập riêng, ẩn/khôi phục. Đội mẫu là placeholder, chưa có dữ liệu. Đội cá nhân giữ local.
+- Supabase project shikigami-library ref aqtcjneotkodqmfgtdaf đã apply migration 20261115190906, 20261115191023, 20261115191741, 20261115191931; file SQL tương ứng ở supabase/migrations. User đã bật anonymous sign-ins và tạo admin, user xác nhận đăng nhập được; không lưu mật khẩu. Đã cấp quyền admin cho tài khoản user xác nhận.
+- Đã kiểm tra browser: đăng đội thử Đội thử swap (còn trên project), like và danh sách. SQL transaction xác nhận không phải admin không được ẩn, admin ẩn/khôi phục rollback. node tests/test_team_cloud.cjs, test_team_store.cjs, test_community.cjs và test_sort.cjs pass; chưa kiểm thử e2e admin ẩn/khôi phục qua UI, hai thiết bị hoặc mobile đầy đủ.
+- Hạn chế: giới hạn gửi 5 đội/10 phút theo phiên ẩn danh, có thể tạo phiên mới, chưa Turnstile/chống spam toàn diện; like mỗi phiên ẩn danh không đảm bảo một người. Danh sách admin giới hạn 100 đội mới nhất. Supabase advisor: các SECURITY DEFINER là API dự kiến với kiểm tra trong hàm, bảng private RLS mặc định deny; bảo vệ mật khẩu rò rỉ chưa bật. Chưa commit/push/merge/publish. Không tuyên bố hoàn tất trước duyệt.
