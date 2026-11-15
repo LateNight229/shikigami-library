@@ -28,3 +28,17 @@
 ## Checkpoint next/previous theo kết quả — 16/11/2026
 - Nút trước/sau dùng cùng danh sách sau tìm kiếm, lọc rarity và sort; vòng từ cuối về đầu. Nếu nhân vật hiện tại không thuộc kết quả thì next chọn đầu, previous chọn cuối; danh sách rỗng không đổi.
 - Node test sort/neighbor pass. In-app: HP giảm dần #564 → #606, sau lọc SP #595 → #612 đúng. Chưa commit/push/publish.
+
+## Checkpoint tạo đội — 16/11/2026
+- Nhánh feat/create-team, chờ người dùng duyệt; chưa commit/push/merge. Thêm tab tạo đội 5 ô, chọn trùng, thêm/thay/xóa, tự lưu một đội trong localStorage theo origin. Bấm chọn trong danh mục hoặc ảnh trong đội để xem chỉ số cơ bản.
+- Thứ tự dự kiến tính tốc cơ bản; cùng tốc được đánh dấu chưa xác định thứ tự. Không tính ngự hồn, hiệu ứng hay phe địch. Slot lưu ID, số liệu lấy từ catalog; có xử lý ID không tồn tại và lỗi storage.
+- Kiểm tra node --check app.js/team.js và node tests/test_sort.cjs pass. Trình duyệt đã thử thêm một thức thần, bấm ảnh xem chỉ số, chọn trùng, cảnh báo cùng tốc, khôi phục sau reload. Chưa kiểm thử đầy đủ mobile và các biên; cần tiếp tục hoàn thiện theo phản hồi.
+- Xem thử: python -m http.server 8770 --bind 127.0.0.1; mở http://127.0.0.1:8770/. Chưa triển khai news hoặc gắn ngự hồn.
+
+## Cập nhật bố cục tạo đội — 16/11/2026
+- Tab tạo đội luôn mở danh mục bên trái, 5 ô một hàng, màn hình hẹp cuộn ngang. Thông tin nhanh xuất hiện khi rê chuột vào avatar danh mục hoặc đội; focus và chạm có hỗ trợ.
+- Kiểm tra cú pháp JS và test sort pass; kiểm tra trực quan viewport khoảng 796px và mở/đóng bảng chỉ số bằng focus. Chưa kiểm thử thao tác rê thực tế hoặc thiết bị cảm ứng. Chưa commit/push/merge.
+
+## Cập nhật đội dự bị — 16/11/2026
+- Thêm 5 ô dự bị độc lập; chọn ô trước rồi chọn thức thần, không đưa dự bị vào thứ tự hành động. Đội đã lưu bản 5 ô được đọc tương thích; lưu bản 10 ô. Nút ba gạch mở tab mới ?hero=ID, app chọn đúng thức thần khi tải.
+- Thu hẹp panel tốc và dàn 5 ô mỗi hàng; màn rất hẹp có thể cuộn ngang. Kiểm tra trình duyệt: thêm thức thần vào ô 6 không thêm vào thứ tự hành động; mở tab mới hiển thị đúng #593. node --check app.js/team.js và node tests/test_sort.cjs pass; chưa kiểm thử mobile toàn diện. Chưa commit/push/merge.
