@@ -46,3 +46,8 @@
 ## Chế độ sáng/tối — 16/11/2026
 - Nút cạnh tìm kiếm chuyển light/dark, ghi nhớ trong localStorage theo origin; không có storage thì dùng trong phiên. Bảng màu tối riêng cho thức thần, kỹ năng, danh mục, ngự hồn, tạo đội, tooltip và sort.
 - Kiểm tra trực quan dark ở 3 tab tại viewport ~796px, nút không bị cắt, reload giữ dark; node --check theme.js và node tests/test_sort.cjs pass. Chưa kiểm thử mobile toàn diện. Nhánh feat/create-team; chưa commit/push/merge.
+
+## Đánh giá và ngự hồn đề xuất — 16/11/2026
+- Nhánh feat/create-team, đã nối 126 review và 209 đề xuất của 83 thức thần từ dữ liệu người dùng đã cào. Snapshot nằm community/reviews.json và community/recommendations.json; không đưa user_id vào website. Nguồn, ngày, độ tin cậy theo nguồn được hiển thị; không có dữ liệu thì báo trống, lỗi tải báo riêng.
+- Trình duyệt: #200 hiển thị đề xuất và trạng thái không review, #593 hiển thị review/điểm/nguồn ở chế độ tối. node tests/test_community.cjs và node tests/test_sort.cjs pass. Chưa kiểm thử toàn bộ record và mobile. Snapshot chưa tự cập nhật; nguồn và nội dung chưa xác minh độc lập, quyền sử dụng cần xem xét trước xuất bản.
+- Chưa commit/push/merge/publish; dừng chờ người dùng duyệt.
