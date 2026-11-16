@@ -1,0 +1,4 @@
+const test=require('node:test'),assert=require('node:assert/strict'),{groups,fallback}=require(require('node:fs').existsSync(require('node:path').join(__dirname,'skill-utils.js'))?'./skill-utils.js':'../skill-utils.js');
+test('groups parent variants without losing independent skills or source order',()=>{const x=groups([{id:6021},{id:6022},{id:6023},{id:6024,parentSkillId:6023,variantOrder:1}]);assert.deepEqual(x.map(g=>g.items.map(i=>i.skill.id)),[[6021],[6022],[6023,6024]]);});
+test('self-parent and alternate forms remain visible',()=>{const x=groups([{id:2693,parentSkillId:2693,variantOrder:1},{id:2695,parentSkillId:2693,variantOrder:2}]);assert.equal(x.length,1);assert.equal(x[0].items.length,2)});
+test('only accepts safe icon filenames',()=>{assert.equal(fallback({iconFile:'6014.webp'}),'https://thucthanluc.io.vn/skill-icons/6014.webp');assert.equal(fallback({iconFile:'../evil.webp'}),'')});
