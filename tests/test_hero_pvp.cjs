@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const ctx={document:{addEventListener(){}},state:{view:'hero',tab:'pvp',heroes:[{id:'1',name:{vi:'A'}},{id:'2',name:{vi:'B'}}]},esc:x=>String(x??''),image:(_,id)=>`/${id}.png`,localName:n=>n.vi,communitySoulsPanel:()=>'<div>Ngự cộng đồng</div>'};vm.createContext(ctx);
+const modulePath=fs.existsSync(path.join(__dirname,'hero-pvp.js'))?path.join(__dirname,'hero-pvp.js'):path.join(__dirname,'../hero-pvp.js');
+vm.runInContext(fs.readFileSync(modulePath,'utf8')+'\nglobalThis.api={heroPvp,heroPvpStatsPanel,heroTeamPanel,heroAllyCounts,heroAlliesPanel,heroCountersPanel,heroSoulsPanel}',ctx);
+const {heroPvp,heroPvpStatsPanel,heroTeamPanel,heroAllyCounts,heroAlliesPanel,heroCountersPanel,heroSoulsPanel}=ctx.api;
+heroPvp.stats={source:{url:'https://yysrank.win/query/shishen',name:'Nguồn',rank:'Danh sĩ',period:'mùa',matches:10,updatedAt:'hôm nay'},heroes:{'1':{winRate:52,pickRate:3,banRate:0}}};
+assert.match(heroPvpStatsPanel({id:'1'}),/52%/);assert.match(heroPvpStatsPanel({id:'1'}),/0%/);assert.match(heroPvpStatsPanel({id:'2'}),/Chưa có thống kê/);
+heroPvp.teams={source:{url:'https://yysrank.win/query/team',name:'Nguồn',updatedAt:'hôm nay'},teams:[{rank:1,slots:['1','2'],winRate:50,pickRate:2},{rank:2,slots:['2'],winRate:99,pickRate:4}]};
+assert.match(heroTeamPanel({id:'1'}),/1 đội/);assert.match(heroTeamPanel({id:'1'}),/title="A"/);assert.doesNotMatch(heroTeamPanel({id:'1'}),/99%/);assert.match(heroTeamPanel({id:'3'}),/Chưa có đội hình/);
+const result=heroAllyCounts('1',[{slots:['1','2','2',null,null]},{slots:['1','2',null,null,null]},{slots:['2',null,null,null,null]}]);assert.equal(result.total,2);assert.equal(result.allies.length,1);assert.equal(result.allies[0].count,2);assert.match(heroAlliesPanel({id:'1'}),/1 đội/);assert.match(heroCountersPanel(),/Chưa có thông tin/);
+assert.match(heroSoulsPanel({id:'1'}),/Ngự cộng đồng/);heroPvp.soulSource='yysrank';assert.match(heroSoulsPanel({id:'1'}),/Chưa có dữ liệu từ nguồn này/);assert.doesNotMatch(heroSoulsPanel({id:'1'}),/Ngự cộng đồng/);
+console.log('OK: separate stats, zero, missing stats, matching team and accessible names');
