@@ -1,10 +1,10 @@
 /* Statistics and team snapshots are separate: do not infer one from the other. */
-const heroPvp={stats:null,teams:null,statsError:false,teamsError:false,loading:{},sort:'pickRate',direction:'desc',allyDirection:'desc',soulSource:'community'};
+const heroPvp={stats:null,teams:null,counters:null,statsError:false,teamsError:false,countersError:false,loading:{},sort:'pickRate',direction:'desc',allyDirection:'desc',soulSource:'community'};
 function heroPvpLoad(kind){
   if(heroPvp[kind]||heroPvp.loading[kind]||heroPvp[kind+'Error'])return;
-  const paths={stats:'curated/hero-pvp.json',teams:'curated/yysrank-top20.json'};
+  const paths={stats:'curated/hero-pvp.json',teams:'curated/yysrank-top20.json',counters:'curated/hero-counters.json'};
   heroPvp.loading[kind]=true;
-  getJson(paths[kind]).then(data=>{heroPvp[kind]=data;}).catch(()=>{heroPvp[kind+'Error']=true;}).finally(()=>{heroPvp.loading[kind]=false;if(state.view==='hero'&&((kind==='stats'&&state.tab==='pvp')||(kind==='teams'&&['hero-teams','hero-allies'].includes(state.tab))))display();});
+  getJson(paths[kind]).then(data=>{heroPvp[kind]=data;}).catch(()=>{heroPvp[kind+'Error']=true;}).finally(()=>{heroPvp.loading[kind]=false;if(state.view==='hero'&&((kind==='stats'&&state.tab==='pvp')||(kind==='teams'&&['hero-teams','hero-allies'].includes(state.tab))||(kind==='counters'&&state.tab==='hero-counters')))display();});
 }
 function heroSoulsPanel(hero){const tabs=`<div class="soul-source-tabs" aria-label="Nguồn ngự hồn"><button type="button" data-hero-soul-source="community" aria-pressed="${heroPvp.soulSource==='community'}">Thức Thần Lục</button><button type="button" data-hero-soul-source="yysrank" aria-pressed="${heroPvp.soulSource==='yysrank'}">阳间斗技</button></div>`;return tabs+(heroPvp.soulSource==='community'?communitySoulsPanel(hero):'<div class="card-body hero-source-section"><h3>Ngự hồn · 阳间斗技</h3><p class="source">Thống kê ngự hồn theo nguồn 阳间斗技.</p><div class="message">Chưa có dữ liệu từ nguồn này.</div></div>');}
 function heroAllyCounts(id,teams){const wanted=String(id),matching=teams.filter(t=>t.slots.slice(0,5).some(x=>String(x)===wanted)),counts=new Map();for(const team of matching){const unique=new Set(team.slots.slice(0,5).filter(Boolean).map(String));unique.delete(wanted);for(const ally of unique)counts.set(ally,(counts.get(ally)||0)+1);}return {total:matching.length,allies:[...counts].map(([id,count])=>({id,count}))};}
@@ -16,7 +16,17 @@ function heroAlliesPanel(hero){
   const rows=allies.map(item=>{const member=state.heroes.find(x=>String(x.id)===item.id);const name=member?localName(member.name):`Thức thần #${item.id}`;return `<div class="hero-ally-row"><div><img loading="lazy" src="${image('shishen',item.id)}" alt=""><span>${esc(name)}</span></div><strong>${item.count}</strong><span>${(item.count/total*100).toFixed(1)}%</span></div>`;}).join('');
   return `<div class="card-body hero-allies"><h3>Thức thần đề cử <small>· Thường đi cùng</small></h3><p class="source">Số đội cùng xuất hiện trong ${total} đội có thức thần này (từ ${teams.length} đội tham khảo), không phải tỷ lệ thắng hay thống kê toàn bộ người chơi · <a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.name)} ↗</a> · ${esc(source.updatedAt)} (giờ nguồn).</p>${total?`<div class="hero-ally-head"><span>Thức thần</span><button type="button" data-hero-ally-sort>Số đội ${direction===1?'↑':'↓'}</button><span>Tỷ lệ</span></div>${rows}`:'<div class="message">Chưa có đội phù hợp để thống kê.</div>'}</div>`;
 }
-function heroCountersPanel(){return '<div class="card-body"><h3>Thức thần khắc chế</h3><div class="message">Chưa có thông tin khắc chế.</div></div>';}
+function heroCountersPanel(hero){
+  heroPvpLoad('counters');const title='<h3>Thức thần khắc chế</h3>';
+  if(heroPvp.countersError)return `<div class="card-body">${title}<div class="message">Không tải được dữ liệu khắc chế.</div></div>`;
+  if(!heroPvp.counters)return `<div class="card-body">${title}<div class="message">Đang tải dữ liệu khắc chế…</div></div>`;
+  const {source,heroes}=heroPvp.counters,entry=heroes[String(hero.id)];
+  const intro=`<div class="soul-source-tabs"><span>阳间斗技</span></div><p class="source">Các thức thần có thể khắc chế ${esc(localName(hero.name))}, theo cột 受制于 của nguồn · ${esc(source.rank)} · ${esc(source.period)} · ${esc(source.updatedAt)} (giờ nguồn). Dữ liệu thống kê, chưa có lý do hoặc tỷ lệ đối đầu.</p>`;
+  if(!entry||!entry.counters?.length)return `<div class="card-body">${title}${intro}<div class="message">Chưa có dữ liệu khắc chế trong bảng xếp hạng của nguồn.</div></div>`;
+  const cards=entry.counters.map(item=>{const member=state.heroes.find(h=>String(h.id)===String(item.id));const name=member?localName(member.name):item.nameVi||item.nameZh||`Thức thần #${item.id}`;return `<a class="counter-card" href="?hero=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer" title="${esc(name)}"><img src="${image('shishen',item.id)}" alt="" loading="lazy"><span>${esc(name)}</span></a>`}).join('');
+  const warning=entry.sourceCount>entry.counters.length?'<p class="source">Một số tên từ nguồn chưa khớp với danh mục và đang chờ kiểm tra.</p>':'';
+  return `<div class="card-body">${title}${intro}<div class="counter-grid">${cards}</div>${warning}</div>`;
+}
 function heroPvpStatsPanel(hero){
   heroPvpLoad('stats');if(heroPvp.statsError)return '<div class="card-body"><h3>Thông số PvP</h3><div class="message">Không tải được thống kê PvP.</div></div>';
   if(!heroPvp.stats)return '<div class="card-body"><h3>Thông số PvP</h3><div class="message">Đang tải thống kê PvP…</div></div>';

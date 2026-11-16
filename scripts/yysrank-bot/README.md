@@ -15,3 +15,9 @@ node collector.cjs --apply
 ## Thống kê PvP thức thần
 
 Chạy `node collect-heroes.cjs --dry-run` để thử không ghi; chạy `node collect-heroes.cjs` để xuất `output/hero-pvp.json` cho người dùng duyệt. Script chỉ đọc bảng xếp hạng đang hiển thị trên nguồn với bộ lọc mặc định, không cam kết đủ mọi thức thần. Kiểm tra danh sách chưa khớp, phạm vi, thời điểm và tỷ lệ trước khi tự sao chép bản duyệt vào `curated/hero-pvp.json`; sau đó kiểm tra trang và thay đổi Git. Không tự push hoặc ghi đè dữ liệu website. Chạy `node --test test-heroes.cjs` để kiểm tra bộ chuyển đổi.
+# Khắc chế trên bảng xếp hạng
+
+`node collect-heroes.cjs --dry-run` kiểm tra mà không ghi file. `node collect-heroes.cjs` xuất thêm `output/hero-counters.json` để duyệt, cùng với file PvP; không tự cập nhật website. Bot đọc tất cả icon trong cột `受制于` nguồn thực sự hiển thị, không áp giới hạn ba, không truy cập dữ liệu Pro. Nguồn hiện có thể chỉ hiển thị ba icon và không có ý nghĩa là danh sách đầy đủ.
+
+Đối chiếu `source`, `unmatched`, `sourceCount` và danh sách `counters` trong file trước khi sao chép vào `curated/hero-counters.json`. Tên không khớp không tự gán ID, không lấy ID trực tiếp của nguồn. Chỉ áp dụng snapshot sau khi kiểm tra điều kiện thời gian, rank, số dòng và độ đầy đủ; giữ file cũ khi nguồn lỗi. Sau khi duyệt và cập nhật dữ liệu website, kiểm tra diff, commit và push theo quy trình repo.
+
