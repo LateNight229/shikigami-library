@@ -1,0 +1,8150 @@
+{
+  "source": {
+    "name": "Kamigame",
+    "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/index.html",
+    "stale": true
+  },
+  "collectedAt": "2026-11-16T08:33:26.171Z",
+  "coverage": {
+    "discovered": 251,
+    "attempted": 251,
+    "matched": 141,
+    "errors": 110
+  },
+  "heroes": {
+    "201": {
+      "nameVi": "Tuyết Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9B%AA%E5%A5%B3.html",
+      "updatedAt": "2023/06/21",
+      "souls": [
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "217",
+          "nameVi": "Đại Thiên Cẩu"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "205": {
+      "nameVi": "Tọa Phu Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%BA%A7%E6%95%B7%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2022/06/08",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "207": {
+      "nameVi": "Cửu Mệnh Miêu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B9%9D%E5%91%BD%E7%8C%AB.html",
+      "updatedAt": "2022/06/08",
+      "souls": [
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "209": {
+      "nameVi": "Hà Đồng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%B2%B3%E7%AB%A5.html",
+      "updatedAt": "2022/06/08",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "212": {
+      "nameVi": "Đồng Nam",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%AB%A5%E7%94%B7.html",
+      "updatedAt": "2022/06/08",
+      "souls": [
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "213": {
+      "nameVi": "Đồng Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%AB%A5%E5%A5%B3.html",
+      "updatedAt": "2024/06/24",
+      "souls": [
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "215": {
+      "nameVi": "Mạnh Bà",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%AD%9F%E5%A9%86.html",
+      "updatedAt": "2022/08/10",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "217": {
+      "nameVi": "Đại Thiên Cẩu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A7%E5%A4%A9%E7%8B%97.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "220": {
+      "nameVi": "Khuyển Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%8A%AC%E7%A5%9E.html",
+      "updatedAt": "2023/05/16",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "292",
+          "nameVi": "Tuyết Đồng Tử"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "223": {
+      "nameVi": "Cốt Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%AA%A8%E5%A5%B3.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "224": {
+      "nameVi": "Vũ Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9B%A8%E5%A5%B3.html",
+      "updatedAt": "2022/06/29",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "227": {
+      "nameVi": "Binh Dũng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%85%B5%E4%BF%91.html",
+      "updatedAt": "2022/06/02",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "55",
+          "nameVi": "Xuất Thế Loa",
+          "nameJa": "出世螺"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "236": {
+      "nameVi": "Quản Hồ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%AE%A1%E7%8B%90.html",
+      "updatedAt": "2022/05/31",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "243": {
+      "nameVi": "Sơn Đồng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%B1%B1%E7%AB%A5.html",
+      "updatedAt": "2024/08/29",
+      "souls": [
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "245": {
+      "nameVi": "Đề Đăng Tiểu Tăng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%8F%90%E7%81%AF%E5%B0%8F%E5%83%A7.html",
+      "updatedAt": "2023/08/02",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "246": {
+      "nameVi": "Xích Thiệt",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%B5%A4%E8%88%8C.html",
+      "updatedAt": "2022/03/28",
+      "souls": [
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "247": {
+      "nameVi": "Hải Phường Chủ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%B5%B7%E5%9D%8A%E4%B8%BB.html",
+      "updatedAt": "2022/05/23",
+      "souls": [
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "248": {
+      "nameVi": "Hoang Xuyên Chi Chủ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%8D%92%E5%B7%9D%E3%81%AE%E4%B8%BB.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "251": {
+      "nameVi": "Phán Quan",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%88%A4%E5%AE%98.html",
+      "updatedAt": "2024/08/21",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "254": {
+      "nameVi": "Yêu Hồ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A6%96%E7%8B%90.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "255": {
+      "nameVi": "Diêm Ma",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%96%BB%E9%AD%94.html",
+      "updatedAt": "2024/06/06",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        },
+        {
+          "id": "311",
+          "nameVi": "Diện Linh Khí"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "334",
+          "nameVi": "Kiêu Lãnh Hoang Xuyên Chi Chủ"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "258": {
+      "nameVi": "Lưỡng Diện Phật",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B8%A1%E9%9D%A2%E4%BB%8F.html",
+      "updatedAt": "2022/07/26",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "259": {
+      "nameVi": "Tiểu Lộc Nam",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E3%82%B7%E3%82%B7%E3%82%AA.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "355",
+          "nameVi": "Lộc Minh Đại Nhạc Hoàn"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "263": {
+      "nameVi": "Nhị Khẩu Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%BA%8C%E5%8F%A3%E5%A5%B3.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "264": {
+      "nameVi": "Bạch Lang",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%99%BD%E7%8B%BC.html",
+      "updatedAt": "2023/12/20",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "265": {
+      "nameVi": "Tỳ Mộc Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%8C%A8%E6%9C%A8%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2024/02/07",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "266": {
+      "nameVi": "Thanh Hành Đăng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9D%92%E8%A1%8C%E7%87%88.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "269": {
+      "nameVi": "Yêu Đao Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A6%96%E5%88%80%E5%A7%AB.html",
+      "updatedAt": "2023/03/08",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "379",
+          "nameVi": "Bất Kiến Nhạc"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "271": {
+      "nameVi": "Bát Nhã",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%88%AC%E8%8B%A5.html",
+      "updatedAt": "2024/07/24",
+      "souls": [
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "272": {
+      "nameVi": "Nhất Mục Liên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B8%80%E7%9B%AE%E9%80%A3.html",
+      "updatedAt": "2025/12/17",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "568",
+          "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "273": {
+      "nameVi": "Thanh Phường Chủ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9D%92%E5%9D%8A%E4%B8%BB.html",
+      "updatedAt": "2022/05/24",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "275": {
+      "nameVi": "Vạn Niên Trúc",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B8%87%E5%B9%B4%E7%AB%B9.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "276": {
+      "nameVi": "Dạ Xoa",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%9C%E5%8F%89.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "278": {
+      "nameVi": "Bạch Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%99%BD%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2022/05/24",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "279": {
+      "nameVi": "Hoa Điểu Quyển",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%8A%B1%E9%B3%A5%E9%A2%A8%E6%9C%88.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 3,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "280": {
+      "nameVi": "Huy Dạ Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "283": {
+      "nameVi": "Hoang",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%8D%92.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        },
+        {
+          "id": "266",
+          "nameVi": "Thanh Hành Đăng"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "286": {
+      "nameVi": "Dĩ Tân Chân Thiên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%BB%A5%E6%B4%A5%E7%9C%9F%E5%A4%A9.html",
+      "updatedAt": "2023/03/08",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "288": {
+      "nameVi": "Bỉ Ngạn Hoa",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%BD%BC%E5%B2%B8%E8%8A%B1.html",
+      "updatedAt": "2024/04/12",
+      "souls": [
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 3,
+      "weak": [
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "220",
+          "nameVi": "Khuyển Thần"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "290": {
+      "nameVi": "Tiểu Tùng Hoàn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%B0%8F%E6%9D%BE%E4%B8%B8.html",
+      "updatedAt": "2022/05/23",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "334",
+          "nameVi": "Kiêu Lãnh Hoang Xuyên Chi Chủ"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "292": {
+      "nameVi": "Tuyết Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9B%AA%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2024/07/24",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 6
+    },
+    "293": {
+      "nameVi": "Bách Mục Quỷ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%99%BE%E7%9B%AE%E9%AC%BC.html",
+      "updatedAt": "2024/03/27",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "295": {
+      "nameVi": "Truy Nguyệt Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%BF%BD%E6%9C%88%E7%A5%9E.html",
+      "updatedAt": "2022/07/19",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "296": {
+      "nameVi": "Sơn Phong",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%B1%B1%E9%A2%A8.html",
+      "updatedAt": "2023/12/20",
+      "souls": [
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "297": {
+      "nameVi": "Nhật Hòa Phường",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%97%A5%E5%92%8C%E5%9D%8A.html",
+      "updatedAt": "2022/05/20",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "300": {
+      "nameVi": "Ngọc Tảo Tiền",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%8E%89%E8%97%BB%E5%89%8D.html",
+      "updatedAt": "2022/07/26",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "301": {
+      "nameVi": "Sổ Châu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%95%B0%E7%8F%A0.html",
+      "updatedAt": "2022/05/30",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "304": {
+      "nameVi": "Ngự Soạn Tân",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%BE%A1%E9%A5%8C%E6%B4%A5.html",
+      "updatedAt": "2025/05/09",
+      "souls": [
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "342",
+          "nameVi": "Tinh Hùng Đồng Tử"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "292",
+          "nameVi": "Tuyết Đồng Tử"
+        },
+        {
+          "id": "201",
+          "nameVi": "Tuyết Nữ"
+        },
+        {
+          "id": "259",
+          "nameVi": "Tiểu Lộc Nam"
+        },
+        {
+          "id": "243",
+          "nameVi": "Sơn Đồng"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "305": {
+      "nameVi": "Mại Dược Lang",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%96%AC%E5%A3%B2%E3%82%8A.html",
+      "updatedAt": "2022/09/01",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "308": {
+      "nameVi": "Quỷ Đăng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%AC%BC%E7%81%AF.html",
+      "updatedAt": "2022/09/01",
+      "souls": [
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "311": {
+      "nameVi": "Diện Linh Khí",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9D%A2%E9%9C%8A%E6%B0%97.html",
+      "updatedAt": "2024/07/24",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "566",
+          "nameVi": "Thần Huy Huệ Bỉ Thọ"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "312": {
+      "nameVi": "Quỷ Thiết",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%AC%BC%E5%88%87.html",
+      "updatedAt": "2024/06/06",
+      "souls": [
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "297",
+          "nameVi": "Nhật Hòa Phường"
+        }
+      ],
+      "unresolvedWeak": 7
+    },
+    "313": {
+      "nameVi": "Inuyasha",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%8A%AC%E5%A4%9C%E5%8F%89.html",
+      "updatedAt": "2022/09/01",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "297",
+          "nameVi": "Nhật Hòa Phường"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "314": {
+      "nameVi": "Sesshomaru",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%AE%BA%E7%94%9F%E4%B8%B8.html",
+      "updatedAt": "2022/09/01",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "315": {
+      "nameVi": "Thiếu Vũ Đại Thiên Cẩu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%B0%91%E7%BE%BD%E5%A4%A7%E5%A4%A9%E7%8B%97.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "399",
+          "nameVi": "Ngôn Linh"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "316": {
+      "nameVi": "Bạch Tàng Chủ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%99%BD%E8%94%B5%E4%B8%BB.html",
+      "updatedAt": "2024/06/06",
+      "souls": [
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "328",
+          "nameVi": "Xích Ảnh Yêu Đao Cơ"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "248",
+          "nameVi": "Hoang Xuyên Chi Chủ"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "318": {
+      "nameVi": "Vu Cúc Trùng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%96%BC%E8%8F%8A%E8%99%AB.html",
+      "updatedAt": "2022/05/27",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "319": {
+      "nameVi": "Cát Cánh",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%A1%94%E6%A2%97.html",
+      "updatedAt": "2022/09/01",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "297",
+          "nameVi": "Nhật Hòa Phường"
+        }
+      ],
+      "unresolvedWeak": 7
+    },
+    "322": {
+      "nameVi": "Luyện Ngục Tỳ Mộc Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%85%89%E7%8D%84%E8%8C%A8%E6%9C%A8%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "323": {
+      "nameVi": "Thiên Tĩnh Hạ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A9%E4%BA%95%E4%B8%8B.html",
+      "updatedAt": "2022/05/30",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "325": {
+      "nameVi": "Bát Kỳ Đại Xà",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%85%AB%E5%B2%90%E5%A4%A7%E8%9B%87.html",
+      "updatedAt": "2026/06/16",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "326": {
+      "nameVi": "Đạo Hà Thần Ngự Soạn Tân",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%A8%B2%E8%8D%B7%E7%A5%9E%E5%BE%A1%E9%A5%8C%E6%B4%A5.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "215",
+          "nameVi": "Mạnh Bà"
+        },
+        {
+          "id": "342",
+          "nameVi": "Tinh Hùng Đồng Tử"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        },
+        {
+          "id": "243",
+          "nameVi": "Sơn Đồng"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "327": {
+      "nameVi": "Thương Phong Nhất Mục Liên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%92%BC%E9%A2%A8%E4%B8%80%E7%9B%AE%E9%80%A3.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "568",
+          "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "328": {
+      "nameVi": "Xích Ảnh Yêu Đao Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%B5%A4%E5%BD%B1%E5%A6%96%E5%88%80%E5%A7%AB.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "297",
+          "nameVi": "Nhật Hòa Phường"
+        }
+      ],
+      "unresolvedWeak": 7
+    },
+    "329": {
+      "nameVi": "Hải Nhẫn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%B5%B7%E5%BF%8D.html",
+      "updatedAt": "2022/05/25",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "330": {
+      "nameVi": "Bất Tri Hỏa",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B8%8D%E7%9F%A5%E7%81%AB.html",
+      "updatedAt": "2024/08/02",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "55",
+          "nameVi": "Xuất Thế Loa",
+          "nameJa": "出世螺"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "330",
+          "nameVi": "Bất Tri Hỏa"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "266",
+          "nameVi": "Thanh Hành Đăng"
+        },
+        {
+          "id": "327",
+          "nameVi": "Thương Phong Nhất Mục Liên"
+        },
+        {
+          "id": "293",
+          "nameVi": "Bách Mục Quỷ"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "331": {
+      "nameVi": "Ngự Oán Bát Nhã",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%BE%A1%E6%80%A8%E8%88%AC%E8%8B%A5.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "392",
+          "nameVi": "Quý"
+        },
+        {
+          "id": "363",
+          "nameVi": "Đế Thích Thiên"
+        },
+        {
+          "id": "396",
+          "nameVi": "Tu La Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "554",
+          "nameVi": "Phưởng Nguyện Duyên Kết Thần"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "332": {
+      "nameVi": "Cửu Thứ Lương",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E4%B9%85%E6%AC%A1%E8%89%AF.html",
+      "updatedAt": "2024/08/02",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "333": {
+      "nameVi": "Đại Nhạc Hoàn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A7%E5%B6%BD%E4%B8%B8.html",
+      "updatedAt": "2022/08/10",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "217",
+          "nameVi": "Đại Thiên Cẩu"
+        },
+        {
+          "id": "292",
+          "nameVi": "Tuyết Đồng Tử"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "334": {
+      "nameVi": "Kiêu Lãnh Hoang Xuyên Chi Chủ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%A9%8D%E6%B5%AA%E8%8D%92%E5%B7%9D%E3%81%AE%E4%B8%BB.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "389",
+          "nameVi": "Tu Tá Chi Nam"
+        },
+        {
+          "id": "393",
+          "nameVi": "Thiền Tâm Vân Ngoại Kính"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        },
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "364",
+          "nameVi": "Asura"
+        },
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "278",
+          "nameVi": "Bạch Đồng Tử"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "339": {
+      "nameVi": "Tẫn Thiên Ngọc Tảo Tiền",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%87%BC%E5%A4%A9%E7%8E%89%E8%97%BB%E5%89%8D.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "341": {
+      "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%AC%BC%E7%8E%8B%E9%85%92%E5%91%91%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "385",
+          "nameVi": "Dạ Ma Thiên Diêm Ma"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "293",
+          "nameVi": "Bách Mục Quỷ"
+        },
+        {
+          "id": "554",
+          "nameVi": "Phưởng Nguyện Duyên Kết Thần"
+        }
+      ],
+      "unresolvedWeak": 6
+    },
+    "342": {
+      "nameVi": "Tinh Hùng Đồng Tử",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%98%9F%E7%86%8A%E7%AB%A5%E5%AD%90.html",
+      "updatedAt": "2022/08/10",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "217",
+          "nameVi": "Đại Thiên Cẩu"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "343": {
+      "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A9%E5%89%A3%E5%88%83%E5%BF%83%E9%AC%BC%E5%88%87.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "399",
+          "nameVi": "Ngôn Linh"
+        },
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "293",
+          "nameVi": "Bách Mục Quỷ"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "344": {
+      "nameVi": "Vân Ngoại Kính",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%9B%B2%E5%A4%96%E9%8F%A1.html",
+      "updatedAt": "2024/06/26",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "312",
+          "nameVi": "Quỷ Thiết"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "345": {
+      "nameVi": "Quỷ Đồng Hoàn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%AC%BC%E7%AB%A5%E4%B8%B8.html",
+      "updatedAt": "2023/03/08",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        }
+      ],
+      "unresolvedSouls": 3,
+      "weak": [
+        {
+          "id": "330",
+          "nameVi": "Bất Tri Hỏa"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "312",
+          "nameVi": "Quỷ Thiết"
+        },
+        {
+          "id": "305",
+          "nameVi": "Mại Dược Lang"
+        },
+        {
+          "id": "313",
+          "nameVi": "Inuyasha"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "293",
+          "nameVi": "Bách Mục Quỷ"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "346": {
+      "nameVi": "Linh Hải Kim Ngư Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%81%86%E6%B5%B7%E9%87%91%E9%AD%9A%E5%A7%AB.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "347": {
+      "nameVi": "Duyên Kết Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%B8%81%E7%B5%90%E7%A5%9E.html",
+      "updatedAt": "2024/04/15",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        }
+      ],
+      "unresolvedSouls": 3,
+      "weak": [
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "348": {
+      "nameVi": "Phù Thế Thanh Hành Đăng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E6%B5%AE%E4%B8%96%E9%9D%92%E8%A1%8C%E7%87%88.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "395",
+          "nameVi": "Lưu Quang Truy Nguyệt Thần"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "350": {
+      "nameVi": "Hạt Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E8%A0%8D%E5%A5%B3.html",
+      "updatedAt": "2024/03/05",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "351": {
+      "nameVi": "Linh Lộc Ngự Tiền",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%88%B4%E9%B9%BF%E5%BE%A1%E5%89%8D.html",
+      "updatedAt": "2024/04/15",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "352": {
+      "nameVi": "Phược Cốt Thanh Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%B8%9B%E9%AA%A8%E6%B8%85%E5%A7%AB.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "396",
+          "nameVi": "Tu La Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "345",
+          "nameVi": "Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "394",
+          "nameVi": "Nguyệt Độc"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "350",
+          "nameVi": "Hạt Nữ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "353": {
+      "nameVi": "Khẩn Na La",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E7%B7%8A%E9%82%A3%E7%BE%85.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "354": {
+      "nameVi": "Đãi Tiêu Cô Hoạch Điểu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%BE%85%E5%AE%B5%E5%A7%91%E7%8D%B2%E9%B3%A5.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "355": {
+      "nameVi": "Lộc Minh Đại Nhạc Hoàn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E9%BA%93%E9%8A%98%E5%A4%A7%E5%B6%BD%E4%B8%B8.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "301",
+          "nameVi": "Sổ Châu"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "356": {
+      "nameVi": "Thiên Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%8D%83%E5%A7%AB.html",
+      "updatedAt": "2024/04/16",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "363",
+          "nameVi": "Đế Thích Thiên"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "345",
+          "nameVi": "Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "350",
+          "nameVi": "Hạt Nữ"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "357": {
+      "nameVi": "Sơ Vũ Sơn Phong",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%88%9D%E7%BF%8E%E5%B1%B1%E9%A2%A8.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "379",
+          "nameVi": "Bất Kiến Nhạc"
+        },
+        {
+          "id": "345",
+          "nameVi": "Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "350",
+          "nameVi": "Hạt Nữ"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "358": {
+      "nameVi": "Dạ Mịch Bỉ Ngạn Hoa",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%9C%E6%BA%9F%E5%BD%BC%E5%B2%B8%E8%8A%B1.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "362": {
+      "nameVi": "Thiền Băng Tuyết Nữ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/147864354316932576.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "559",
+          "nameVi": "Bản Chân Tam Vĩ Hồ"
+        },
+        {
+          "id": "557",
+          "nameVi": "Y Tà Na Mỹ"
+        },
+        {
+          "id": "394",
+          "nameVi": "Nguyệt Độc"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "220",
+          "nameVi": "Khuyển Thần"
+        },
+        {
+          "id": "275",
+          "nameVi": "Vạn Niên Trúc"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "363": {
+      "nameVi": "Đế Thích Thiên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/152502024921978683.html",
+      "updatedAt": "2025/09/17",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "393",
+          "nameVi": "Thiền Tâm Vân Ngoại Kính"
+        },
+        {
+          "id": "394",
+          "nameVi": "Nguyệt Độc"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "364": {
+      "nameVi": "Asura",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/157023536039380889.html",
+      "updatedAt": "2024/04/26",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "365": {
+      "nameVi": "Nhập Nội Tước",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/162277186827475773.html",
+      "updatedAt": "2023/12/28",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "55",
+          "nameVi": "Xuất Thế Loa",
+          "nameJa": "出世螺"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "366": {
+      "nameVi": "Không Tương Diện Linh Khí",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/166125022895734285.html",
+      "updatedAt": "2025/04/14",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "367": {
+      "nameVi": "Họa Thế Hoa Điểu Quyển",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/171200776037759428.html",
+      "updatedAt": "2025/03/19",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "368": {
+      "nameVi": "Di Tế Công",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/174415677422104689.html",
+      "updatedAt": "2023/12/28",
+      "souls": [
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "55",
+          "nameVi": "Xuất Thế Loa",
+          "nameJa": "出世螺"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "369": {
+      "nameVi": "Thực Linh",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/174413901402796145.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "366",
+          "nameVi": "Không Tương Diện Linh Khí"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "370": {
+      "nameVi": "Phạn Tứ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/174414049361015208.html",
+      "updatedAt": "2024/04/17",
+      "souls": [
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "371": {
+      "nameVi": "Xuyên Viên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/181548353132195597.html",
+      "updatedAt": "2023/12/28",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "372": {
+      "nameVi": "Nhân Phiên Huy Dạ Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/184411768183871589.html",
+      "updatedAt": "2025/11/14",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        },
+        {
+          "id": "379",
+          "nameVi": "Bất Kiến Nhạc"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "373": {
+      "nameVi": "Dạ Đao Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/189216303133767180.html",
+      "updatedAt": "2022/06/13",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "363",
+          "nameVi": "Đế Thích Thiên"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "375": {
+      "nameVi": "Ảnh Ngạc",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/191700934013791155.html",
+      "updatedAt": "2023/12/13",
+      "souls": [
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "341",
+          "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "376": {
+      "nameVi": "Linh Ngạn Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/192948331045992077.html",
+      "updatedAt": "2024/08/02",
+      "souls": [
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "34",
+          "nameVi": "Thổ Tri Thù",
+          "nameJa": "土蜘蛛"
+        }
+      ],
+      "unresolvedSouls": 3,
+      "weak": [
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "377": {
+      "nameVi": "Mộng Tầm Sơn Thố",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/193129042549980460.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "357",
+          "nameVi": "Sơ Vũ Sơn Phong"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "379": {
+      "nameVi": "Bất Kiến Nhạc",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/199317957296280917.html",
+      "updatedAt": "2024/04/17",
+      "souls": [
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        },
+        {
+          "id": "373",
+          "nameVi": "Dạ Đao Thần"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "382": {
+      "nameVi": "Linh Hải Điệp",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/206704237554495627.html",
+      "updatedAt": "2023/12/29",
+      "souls": [
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "296",
+          "nameVi": "Sơn Phong"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "383": {
+      "nameVi": "Thần Đọa Bát Kỳ Đại Xà",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/209481676068251086.html",
+      "updatedAt": "2024/09/25",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "5",
+          "nameVi": "Tam Vị",
+          "nameJa": "三味"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "383",
+          "nameVi": "Thần Đọa Bát Kỳ Đại Xà"
+        },
+        {
+          "id": "362",
+          "nameVi": "Thiền Băng Tuyết Nữ"
+        },
+        {
+          "id": "365",
+          "nameVi": "Nhập Nội Tước"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "384": {
+      "nameVi": "Phấn Bà Bà",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/212846396968032333.html",
+      "updatedAt": "2023/12/29",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "224",
+          "nameVi": "Vũ Nữ"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "326",
+          "nameVi": "Đạo Hà Thần Ngự Soạn Tân"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 5
+    },
+    "385": {
+      "nameVi": "Dạ Ma Thiên Diêm Ma",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/214433625788169832.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "388",
+          "nameVi": "Tâm Thú Quỷ Nữ Hồng Diệp"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "308",
+          "nameVi": "Quỷ Đăng"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "388": {
+      "nameVi": "Tâm Thú Quỷ Nữ Hồng Diệp",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/219185033318022163.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "59",
+          "nameVi": "Ứng Thanh Trùng",
+          "nameJa": "応声虫"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "48",
+          "nameVi": "Đồ Phật",
+          "nameJa": "塗仏"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "550",
+          "nameVi": "Khổng Tước Minh Vương"
+        },
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        },
+        {
+          "id": "342",
+          "nameVi": "Tinh Hùng Đồng Tử"
+        },
+        {
+          "id": "366",
+          "nameVi": "Không Tương Diện Linh Khí"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        },
+        {
+          "id": "552",
+          "nameVi": "Tuệ Minh Đăng"
+        }
+      ],
+      "unresolvedWeak": 4
+    },
+    "389": {
+      "nameVi": "Tu Tá Chi Nam",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/227192554876059984.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "388",
+          "nameVi": "Tâm Thú Quỷ Nữ Hồng Diệp"
+        },
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "570",
+          "nameVi": "Họa Tân Thần"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        },
+        {
+          "id": "552",
+          "nameVi": "Tuệ Minh Đăng"
+        },
+        {
+          "id": "327",
+          "nameVi": "Thương Phong Nhất Mục Liên"
+        },
+        {
+          "id": "366",
+          "nameVi": "Không Tương Diện Linh Khí"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "271",
+          "nameVi": "Bát Nhã"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        },
+        {
+          "id": "290",
+          "nameVi": "Tiểu Tùng Hoàn"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "390": {
+      "nameVi": "Thần Khải Hoang",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/227362328927074116.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        }
+      ],
+      "unresolvedWeak": 2
+    },
+    "391": {
+      "nameVi": "Tầm Hương Hành",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/231683424052586973.html",
+      "updatedAt": "2024/06/18",
+      "souls": [
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 2
+    },
+    "392": {
+      "nameVi": "Quý",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/236868461546991717.html",
+      "updatedAt": "2025/03/19",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "220",
+          "nameVi": "Khuyển Thần"
+        },
+        {
+          "id": "392",
+          "nameVi": "Quý"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "363",
+          "nameVi": "Đế Thích Thiên"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "346",
+          "nameVi": "Linh Hải Kim Ngư Cơ"
+        },
+        {
+          "id": "552",
+          "nameVi": "Tuệ Minh Đăng"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "393": {
+      "nameVi": "Thiền Tâm Vân Ngoại Kính",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/240944759240163518.html",
+      "updatedAt": "2025/05/09",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "362",
+          "nameVi": "Thiền Băng Tuyết Nữ"
+        },
+        {
+          "id": "333",
+          "nameVi": "Đại Nhạc Hoàn"
+        },
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "568",
+          "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "312",
+          "nameVi": "Quỷ Thiết"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "394": {
+      "nameVi": "Nguyệt Độc",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/244728567395581712.html",
+      "updatedAt": "2024/06/05",
+      "souls": [
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "18",
+          "nameVi": "Tâm Nhãn",
+          "nameJa": "心眼"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "385",
+          "nameVi": "Dạ Ma Thiên Diêm Ma"
+        },
+        {
+          "id": "255",
+          "nameVi": "Diêm Ma"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "395": {
+      "nameVi": "Lưu Quang Truy Nguyệt Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/245035020173974554.html",
+      "updatedAt": "2024/09/03",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "396": {
+      "nameVi": "Tu La Quỷ Đồng Hoàn",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/250219776364793571.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "398": {
+      "nameVi": "Thiên Nghịch Mỗi",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/252426362873195765.html",
+      "updatedAt": "2023/12/29",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "394",
+          "nameVi": "Nguyệt Độc"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "399": {
+      "nameVi": "Ngôn Linh",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/255040143738596777.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "25",
+          "nameVi": "Trấn Mộ Thú",
+          "nameJa": "墓守り"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "389",
+          "nameVi": "Tu Tá Chi Nam"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "388",
+          "nameVi": "Tâm Thú Quỷ Nữ Hồng Diệp"
+        },
+        {
+          "id": "355",
+          "nameVi": "Lộc Minh Đại Nhạc Hoàn"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "334",
+          "nameVi": "Kiêu Lãnh Hoang Xuyên Chi Chủ"
+        },
+        {
+          "id": "358",
+          "nameVi": "Dạ Mịch Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "288",
+          "nameVi": "Bỉ Ngạn Hoa"
+        },
+        {
+          "id": "266",
+          "nameVi": "Thanh Hành Đăng"
+        }
+      ],
+      "unresolvedWeak": 3
+    },
+    "405": {
+      "nameVi": "Thiên Tà Quỷ Xích",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A9%E9%82%AA%E9%AC%BC%E8%B5%A4.html",
+      "updatedAt": "2022/03/28",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "406": {
+      "nameVi": "Thiên Tà Quỷ Hoàng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A9%E9%82%AA%E9%AC%BC%E9%BB%84.html",
+      "updatedAt": "2022/03/28",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "407": {
+      "nameVi": "Thiên Tà Quỷ Thanh",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/%E5%BC%8F%E7%A5%9E/%E5%A4%A9%E9%82%AA%E9%AC%BC%E9%9D%92.html",
+      "updatedAt": "2022/03/28",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "550": {
+      "nameVi": "Khổng Tước Minh Vương",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/262562942820600594.html",
+      "updatedAt": "2024/06/26",
+      "souls": [
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "46",
+          "nameVi": "Binh Chủ Bộ",
+          "nameJa": "兵主部"
+        },
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        }
+      ],
+      "unresolvedSouls": 2,
+      "weak": [
+        {
+          "id": "393",
+          "nameVi": "Thiền Tâm Vân Ngoại Kính"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        },
+        {
+          "id": "272",
+          "nameVi": "Nhất Mục Liên"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "551": {
+      "nameVi": "Tầm Sâm Tiểu Lộc Nam",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/268371923249984151.html",
+      "updatedAt": "2024/09/03",
+      "souls": [
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "14",
+          "nameVi": "Tranh",
+          "nameJa": "狰"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 4,
+      "weak": [
+        {
+          "id": "393",
+          "nameVi": "Thiền Tâm Vân Ngoại Kính"
+        },
+        {
+          "id": "394",
+          "nameVi": "Nguyệt Độc"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "366",
+          "nameVi": "Không Tương Diện Linh Khí"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "554",
+          "nameVi": "Phưởng Nguyện Duyên Kết Thần"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "552": {
+      "nameVi": "Tuệ Minh Đăng",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/270682999182369257.html",
+      "updatedAt": "2023/12/29",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "554": {
+      "nameVi": "Phưởng Nguyện Duyên Kết Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/272404747653274353.html",
+      "updatedAt": "2025/03/19",
+      "souls": [
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        }
+      ],
+      "unresolvedSouls": 4,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "555": {
+      "nameVi": "Miểu Niệm Huỳnh Thảo",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/280391849829504080.html",
+      "updatedAt": "2025/03/19",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "396",
+          "nameVi": "Tu La Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "550",
+          "nameVi": "Khổng Tước Minh Vương"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "556": {
+      "nameVi": "Thiên Chiếu",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/280385903245956736.html",
+      "updatedAt": "2025/05/09",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "557": {
+      "nameVi": "Y Tà Na Mỹ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/284121888064587698.html",
+      "updatedAt": "2025/03/19",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "330",
+          "nameVi": "Bất Tri Hỏa"
+        },
+        {
+          "id": "392",
+          "nameVi": "Quý"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "558": {
+      "nameVi": "Đạo Nhân Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/286924907789420295.html",
+      "updatedAt": "2023/12/29",
+      "souls": [
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "351",
+          "nameVi": "Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "557",
+          "nameVi": "Y Tà Na Mỹ"
+        },
+        {
+          "id": "344",
+          "nameVi": "Vân Ngoại Kính"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "559": {
+      "nameVi": "Bản Chân Tam Vĩ Hồ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/288615555546531122.html",
+      "updatedAt": "2025/03/19",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "327",
+          "nameVi": "Thương Phong Nhất Mục Liên"
+        },
+        {
+          "id": "363",
+          "nameVi": "Đế Thích Thiên"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "561": {
+      "nameVi": "Lung",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/297037632263749250.html",
+      "updatedAt": "2025/05/09",
+      "souls": [
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "568",
+          "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "392",
+          "nameVi": "Quý"
+        },
+        {
+          "id": "346",
+          "nameVi": "Linh Hải Kim Ngư Cơ"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "562": {
+      "nameVi": "Kình Tịch Thiên Cơ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/300668922623992624.html",
+      "updatedAt": "2024/09/11",
+      "souls": [
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "385",
+          "nameVi": "Dạ Ma Thiên Diêm Ma"
+        },
+        {
+          "id": "396",
+          "nameVi": "Tu La Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "399",
+          "nameVi": "Ngôn Linh"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "563": {
+      "nameVi": "Hatsune Miku",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/304583391569784696.html",
+      "updatedAt": "2024/08/19",
+      "souls": [
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "61",
+          "nameVi": "Điếu Bình Hỏa",
+          "nameJa": "釣瓶火"
+        },
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "19",
+          "nameVi": "Mộc Mị",
+          "nameJa": "玉樹"
+        },
+        {
+          "id": "31",
+          "nameVi": "Phản Hồn Hương",
+          "nameJa": "返魂香"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "348",
+          "nameVi": "Phù Thế Thanh Hành Đăng"
+        },
+        {
+          "id": "356",
+          "nameVi": "Thiên Cơ"
+        }
+      ],
+      "unresolvedWeak": 1
+    },
+    "566": {
+      "nameVi": "Thần Huy Huệ Bỉ Thọ",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/308919722907307603.html",
+      "updatedAt": "2024/09/24",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "568": {
+      "nameVi": "Long Ngâm Linh Lộc Ngự Tiền",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/316469777331713472.html",
+      "updatedAt": "2024/09/24",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "399",
+          "nameVi": "Ngôn Linh"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "569": {
+      "nameVi": "Miêu Xuyên",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/320539203597276470.html",
+      "updatedAt": "2024/09/24",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [
+        {
+          "id": "550",
+          "nameVi": "Khổng Tước Minh Vương"
+        },
+        {
+          "id": "331",
+          "nameVi": "Ngự Oán Bát Nhã"
+        },
+        {
+          "id": "343",
+          "nameVi": "Thiên Kiếm Nhẫn Tâm Quỷ Thiết"
+        },
+        {
+          "id": "390",
+          "nameVi": "Thần Khải Hoang"
+        },
+        {
+          "id": "551",
+          "nameVi": "Tầm Sâm Tiểu Lộc Nam"
+        },
+        {
+          "id": "327",
+          "nameVi": "Thương Phong Nhất Mục Liên"
+        },
+        {
+          "id": "570",
+          "nameVi": "Họa Tân Thần"
+        },
+        {
+          "id": "316",
+          "nameVi": "Bạch Tàng Chủ"
+        },
+        {
+          "id": "561",
+          "nameVi": "Lung"
+        },
+        {
+          "id": "304",
+          "nameVi": "Ngự Soạn Tân"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "570": {
+      "nameVi": "Họa Tân Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/324425686737522949.html",
+      "updatedAt": "2024/09/24",
+      "souls": [],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "572": {
+      "nameVi": "Dao Niệm Yên Yên La",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/328653141190919981.html",
+      "updatedAt": "2024/09/24",
+      "souls": [
+        {
+          "id": "17",
+          "nameVi": "Thế Hồn",
+          "nameJa": "薙魂"
+        },
+        {
+          "id": "8",
+          "nameVi": "Chiêu Tài Miêu",
+          "nameJa": "招き猫"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        },
+        {
+          "id": "50",
+          "nameVi": "Di Niệm Hỏa",
+          "nameJa": "遺念火"
+        },
+        {
+          "id": "15",
+          "nameVi": "Hỏa Linh",
+          "nameJa": "火霊"
+        },
+        {
+          "id": "28",
+          "nameVi": "Bạng Tinh",
+          "nameJa": "蛤の精"
+        },
+        {
+          "id": "51",
+          "nameVi": "Cộng Tiềm",
+          "nameJa": "共潜"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "55",
+          "nameVi": "Xuất Thế Loa",
+          "nameJa": "出世螺"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [
+        {
+          "id": "399",
+          "nameVi": "Ngôn Linh"
+        },
+        {
+          "id": "396",
+          "nameVi": "Tu La Quỷ Đồng Hoàn"
+        },
+        {
+          "id": "352",
+          "nameVi": "Phược Cốt Thanh Cơ"
+        },
+        {
+          "id": "392",
+          "nameVi": "Quý"
+        }
+      ],
+      "unresolvedWeak": 0
+    },
+    "573": {
+      "nameVi": "Long Giác",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/332546431149697278.html",
+      "updatedAt": "2024/09/27",
+      "souls": [
+        {
+          "id": "24",
+          "nameVi": "Phá Thế",
+          "nameJa": "破勢"
+        },
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "47",
+          "nameVi": "Thanh Nữ Phòng",
+          "nameJa": "青女房"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "54",
+          "nameVi": "Hải Nguyệt Hỏa Ngọc",
+          "nameJa": "海月の火の玉"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "53",
+          "nameVi": "Bối Xuy Phường",
+          "nameJa": "貝吹坊"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "10",
+          "nameVi": "Luân Nhập Đạo",
+          "nameJa": "輪入道"
+        }
+      ],
+      "unresolvedSouls": 0,
+      "weak": [],
+      "unresolvedWeak": 0
+    },
+    "574": {
+      "nameVi": "Tâm Hữu Khuyển Thần",
+      "url": "https://kamigame.jp/%E9%99%B0%E9%99%BD%E5%B8%AB/page/332547017379163272.html",
+      "updatedAt": "2024/09/26",
+      "souls": [
+        {
+          "id": "21",
+          "nameVi": "Võng Thiết",
+          "nameJa": "網切"
+        },
+        {
+          "id": "2",
+          "nameVi": "Địa Tạng Tượng",
+          "nameJa": "地蔵の像"
+        },
+        {
+          "id": "30",
+          "nameVi": "Châm Nữ",
+          "nameJa": "針女"
+        },
+        {
+          "id": "32",
+          "nameVi": "Cuồng Cốt",
+          "nameJa": "狂骨"
+        },
+        {
+          "id": "23",
+          "nameVi": "Thương Hồn Điểu",
+          "nameJa": "悲鳴鳥"
+        },
+        {
+          "id": "29",
+          "nameVi": "Mị Yêu",
+          "nameJa": "魅妖"
+        },
+        {
+          "id": "1",
+          "nameVi": "Tuyết U Hồn",
+          "nameJa": "雪幽魂"
+        },
+        {
+          "id": "13",
+          "nameVi": "Chung Linh",
+          "nameJa": "鍾霊"
+        },
+        {
+          "id": "6",
+          "nameVi": "Võng Lượng Chi Hạp",
+          "nameJa": "魍魎の匣"
+        }
+      ],
+      "unresolvedSouls": 1,
+      "weak": [],
+      "unresolvedWeak": 0
+    }
+  }
+}
