@@ -21,11 +21,12 @@ function heroCountersPanel(hero){
   if(heroPvp.countersError)return `<div class="card-body">${title}<div class="message">Không tải được dữ liệu khắc chế.</div></div>`;
   if(!heroPvp.counters)return `<div class="card-body">${title}<div class="message">Đang tải dữ liệu khắc chế…</div></div>`;
   const {source,heroes}=heroPvp.counters,entry=heroes[String(hero.id)];
-  const intro=`<div class="soul-source-tabs"><span>阳间斗技</span></div><p class="source">Các thức thần có thể khắc chế ${esc(localName(hero.name))}, theo cột 受制于 của nguồn · ${esc(source.rank)} · ${esc(source.period)} · ${esc(source.updatedAt)} (giờ nguồn). Dữ liệu thống kê, chưa có lý do hoặc tỷ lệ đối đầu.</p>`;
-  if(!entry||!entry.counters?.length)return `<div class="card-body">${title}${intro}<div class="message">Chưa có dữ liệu khắc chế trong bảng xếp hạng của nguồn.</div></div>`;
-  const cards=entry.counters.map(item=>{const member=state.heroes.find(h=>String(h.id)===String(item.id));const name=member?localName(member.name):item.nameVi||item.nameZh||`Thức thần #${item.id}`;return `<a class="counter-card" href="?hero=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer" title="${esc(name)}"><img src="${image('shishen',item.id)}" alt="" loading="lazy"><span>${esc(name)}</span></a>`}).join('');
-  const warning=entry.sourceCount>entry.counters.length?'<p class="source">Một số tên từ nguồn chưa khớp với danh mục và đang chờ kiểm tra.</p>':'';
-  return `<div class="card-body">${title}${intro}<div class="counter-grid">${cards}</div>${warning}</div>`;
+  const intro=`<div class="soul-source-tabs"><span>阳间斗技</span></div><p class="source">Theo cột 受制于 của nguồn · ${esc(source.rank)} · ${esc(source.period)} · ${esc(source.updatedAt)} (giờ nguồn). Đây là dữ liệu tham khảo theo thống kê, không đảm bảo kết quả trong mọi trận.</p>`;
+  const weak=entry?.counters||[];
+  const strong=Object.entries(heroes).filter(([,item])=>item.counters?.some(counter=>String(counter.id)===String(hero.id))).map(([id,item])=>({id,nameVi:item.nameVi,nameZh:item.nameZh}));
+  const cards=items=>items.length?`<div class="counter-grid">${items.map(item=>{const member=state.heroes.find(h=>String(h.id)===String(item.id));const name=member?localName(member.name):item.nameVi||item.nameZh||`Thức thần #${item.id}`;return `<a class="counter-card" href="?hero=${encodeURIComponent(item.id)}" target="_blank" rel="noopener noreferrer" title="${esc(name)}"><img src="${image('shishen',item.id)}" alt="" loading="lazy"><span>${esc(name)}</span></a>`}).join('')}</div>`:'<div class="message">Chưa có dữ liệu trong bảng nguồn hiện tại.</div>';
+  const warning=entry&&entry.sourceCount>weak.length?'<p class="source">Một số tên từ nguồn chưa khớp với danh mục và đang chờ kiểm tra.</p>':'';
+  return `<div class="card-body">${title}${intro}<section><h4>Yếu khi gặp</h4><p class="source">Những thức thần nguồn liệt kê là gây bất lợi cho ${esc(localName(hero.name))}.</p>${cards(weak)}${warning}</section><section><h4>Mạnh hơn khi gặp</h4><p class="source">Các thức thần có ${esc(localName(hero.name))} trong mục “Yếu khi gặp”. Suy ra từ bảng xếp hạng hiện có, không phải danh sách đầy đủ hay thứ tự sức mạnh.</p>${cards(strong)}</section></div>`;
 }
 function heroPvpStatsPanel(hero){
   heroPvpLoad('stats');if(heroPvp.statsError)return '<div class="card-body"><h3>Thông số PvP</h3><div class="message">Không tải được thống kê PvP.</div></div>';
