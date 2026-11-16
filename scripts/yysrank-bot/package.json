@@ -1,0 +1,7 @@
+{
+  "name": "heian-yysrank-collector",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "test": "node --test test-collector.cjs" },
+  "dependencies": { "playwright-core": "1.56.1" }
+}

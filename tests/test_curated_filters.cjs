@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const root=process.argv[2]||path.join(__dirname,'..');
+const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase();
+const context={window:{},document:{addEventListener(){}},norm};vm.createContext(context);
+vm.runInContext(fs.readFileSync(path.join(root,'team-cloud.js'),'utf8')+'\nglobalThis.filter=curatedFilterTeams;',context);
+const heroes=[{id:'1',name:{vi:'Bất Tri Hỏa',en:'Shiranui',zh:'不知火'}},{id:'2',name:{vi:'Cát Diệp',en:'Kuzunoha',zh:'葛叶'}}];
+const teams=[{rank:1,slots:['1','2',null,null,null],picks:100},{rank:2,slots:['2',null,null,null,null],picks:250}];
+assert.deepEqual(Array.from(context.filter(teams,heroes,'bat tri hoa',0),x=>x.rank),[1]);
+assert.deepEqual(Array.from(context.filter(teams,heroes,'葛叶',200),x=>x.rank),[2]);
+assert.deepEqual(Array.from(context.filter(teams,heroes,'shiranui',101),x=>x.rank),[]);
+assert.deepEqual(Array.from(context.filter(teams,heroes,'2',0),x=>x.rank),[1,2]);
+assert.deepEqual(Array.from(context.filter(teams,heroes,'',0),x=>x.rank),[1,2]);
+console.log('OK: hero filter, multilingual text, ID and minimum picks');
