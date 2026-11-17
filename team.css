@@ -46,3 +46,5 @@
 
 /* Biểu tượng ngự phủ kín ô; nút áp dụng nổi bật khi có bộ chính. */
 .team-soul-icon{padding:0;overflow:visible}.team-soul-icon img:not(.team-soul-secondary){width:100%;height:100%;object-fit:cover}.team-soul-detail footer button[data-team-soul-apply]:not(:disabled),html[data-theme="dark"] .team-soul-detail footer button[data-team-soul-apply]:not(:disabled){background:#a14567;color:#fff;border-color:#a14567;font-weight:700}.team-soul-detail footer button[data-team-soul-apply]:disabled{opacity:.5;cursor:not-allowed}
+
+.team-soul-note-label{display:flex;flex-direction:column;gap:5px;font-size:12px}.team-soul-note-label textarea{width:100%;min-height:70px;resize:vertical;box-sizing:border-box;border:1px solid #d9a8b6;border-radius:6px;padding:7px;background:transparent;color:inherit;font:inherit}.team-soul-note-button{position:absolute;right:22px;top:35px;border:0;border-radius:10px;background:#f3d9e1;color:#934362;font-size:11px;cursor:pointer}
