@@ -1,0 +1,46 @@
+/* Chỉ tính tốc chính ô 2; các hiệu ứng và chỉ số phụ chưa được tính. */
+const teamSoulLabels={spd:'Tốc',atk:'Công%',hp:'Máu%',def:'Thủ%',hit:'Chính xác',res:'Kháng',crit:'Chí mạng',critdmg:'ST chí mạng'};
+let selectedTeamSouls=[],teamSoulEdit=null,teamSoulHold=null,teamSoulSuppressUntil=0;
+function teamSoulById(id){return state.souls.find(s=>String(s.id)===String(id));}
+function teamSoulSlotHtml(index){
+ const build=teamSouls[index],soul=build?teamSoulById(build.soulId):null;
+ const label=soul?localName(soul.name):'Chọn ngự';
+ const secondary=teamSoulById(build?.secondaryId);
+ return `<div class="team-soul-area"><button type="button" class="team-soul-icon ${selectedTeamSouls.includes(index)?'soul-selected':''}" data-team-soul-open="${index}" aria-label="${esc(label)} ô ${index+1}" title="${esc(label)}${secondary?' + '+esc(localName(secondary.name)):''} · nhấn giữ để chọn đổi">${soul?`<img src="${esc(soulImage(soul,'portrait'))}" alt="">`:'+'}${secondary?`<img class="team-soul-secondary" src="${esc(soulImage(secondary,'portrait'))}" alt="Bộ 2: ${esc(localName(secondary.name))}">`:''}</button><div class="team-soul-stats">${['2','4','6'].map(pos=>`<span>${pos} · ${esc(teamSoulLabels[build?.mainStats?.[pos]]||'—')}</span>`).join('')}</div><button class="team-soul-select" type="button" data-team-soul-select="${index}" aria-pressed="${selectedTeamSouls.includes(index)}" aria-label="Chọn ngự ô ${index+1} để đổi">⇄</button></div>`;
+}
+function teamSoulSwapButton(){return selectedTeamSouls.length===2?'<button type="button" class="swap-action" data-team-soul-swap>⇄ Đổi ngự</button>':'';}
+function teamSoulSelect(index){if(!teamSlots[index])return;selectedSlots=[];teamTarget=null;selectedTeamSouls=TeamStore.select(selectedTeamSouls,index);teamNotice=selectedTeamSouls.length===2?'Đã chọn hai ô ngự. Bấm Đổi ngự để hoán đổi.':'Đã chọn ô ngự; chọn ô khác để đổi.';drawTeam();}
+function teamSoulDialog(){let dialog=document.querySelector('#team-soul-dialog');if(!dialog){dialog=document.createElement('dialog');dialog.id='team-soul-dialog';dialog.className='team-soul-dialog';document.body.append(dialog);}return dialog;}
+function teamSoulOpen(index){
+ if(!teamSlots[index])return;const b=teamSouls[index];teamSoulEdit={index,kind:'primary',primary:b?.soulId||'',secondary:b?.secondaryId||'',mainStats:{2:b?.mainStats?.[2]||'',4:b?.mainStats?.[4]||'',6:b?.mainStats?.[6]||''},query:'',filter:'all'};
+ teamSoulRender();teamSoulDialog().showModal();
+}
+function teamSoulRender(){
+ const dialog=teamSoulDialog(),edit=teamSoulEdit;if(!edit)return;
+ const hero=teamHero(teamSlots[edit.index]), chosen=teamSoulById(edit.kind==='primary'?edit.primary:edit.secondary),query=norm(edit.query.trim());
+ const items=state.souls.filter(s=>(edit.filter==='all'||soulBonus(s)===edit.filter)&&(!query||norm([s.name?.vi,s.name?.en,s.name?.zh,s.id].filter(Boolean).join(' ')).includes(query)));
+ const options=soulOptions().map(([v,l])=>`<option value="${esc(v)}" ${edit.filter===v?'selected':''}>${esc(l)}</option>`).join('');
+ const stats=['2','4','6'].map(pos=>`<label>Vị trí ${pos}<select data-team-soul-stat="${pos}"><option value="">Chưa chọn</option>${TeamSoulStore.OPTIONS[pos].map(v=>`<option value="${v}" ${edit.mainStats[pos]===v?'selected':''}>${esc(teamSoulLabels[v])}</option>`).join('')}</select></label>`).join('');
+ const show=s=>s?esc(localName(s.name)):'Chưa chọn';
+ dialog.innerHTML=`<header><div><span class="eyebrow">TRANG BỊ NGỰ</span><h2>${esc(localName(hero?.name))}</h2></div><button type="button" data-team-soul-cancel aria-label="Đóng">×</button></header><div class="team-soul-editor"><section class="team-soul-catalog"><div class="team-soul-controls"><label>Tìm ngự <input data-team-soul-search value="${esc(edit.query)}" placeholder="Tên Việt, Anh, Trung"></label><label>Bộ 2 <select data-team-soul-filter>${options}</select></label></div><div class="team-soul-grid">${items.map(s=>`<button type="button" data-team-soul-pick="${esc(s.id)}" aria-pressed="${String(s.id)===String(edit.kind==='primary'?edit.primary:edit.secondary)}"><img src="${esc(soulImage(s,'portrait'))}" alt=""><span>${esc(localName(s.name))}</span></button>`).join('')||'<p>Không tìm thấy ngự.</p>'}</div></section><section class="team-soul-portrait">${chosen?`<img src="${esc(soulImage(chosen,'full'))}" alt="${esc(localName(chosen.name))}"><strong>${esc(localName(chosen.name))}</strong>`:'Chọn một ngự từ danh mục'}</section><section class="team-soul-detail"><div class="team-soul-kind"><button type="button" data-team-soul-kind="primary" aria-pressed="${edit.kind==='primary'}">Bộ chính: ${show(teamSoulById(edit.primary))}</button><button type="button" data-team-soul-kind="secondary" aria-pressed="${edit.kind==='secondary'}">Bộ 2: ${show(teamSoulById(edit.secondary))}</button>${edit.secondary?'<button type="button" data-team-soul-clear-secondary>Bỏ bộ 2</button>':''}</div>${chosen?`<h3>${esc(localName(chosen.name))}</h3><p><b>Bộ 2:</b> ${safeText(chosen.set2?.vi||'Chưa có dữ liệu')}</p><p><b>${chosen.category==='boss'?'Hiệu quả':'Bộ 4'}:</b> ${safeText(chosen.set4?.vi||'Chưa có dữ liệu')}</p>`:''}<h3>Chỉ số chính · 6 sao +15</h3><div class="team-soul-main">${stats}</div><p class="team-soul-help">Mới tính +57 tốc khi vị trí 2 là Tốc. Chưa tính bộ, chỉ số phụ hoặc kỹ năng.</p><footer><button type="button" data-team-soul-remove>Bỏ ngự</button><button type="button" data-team-soul-cancel>Hủy</button><button type="button" data-team-soul-apply>Áp dụng</button></footer></section></div>`;
+}
+document.addEventListener('click',e=>{
+ const open=e.target.closest('[data-team-soul-open]'),select=e.target.closest('[data-team-soul-select]'),swap=e.target.closest('[data-team-soul-swap]'),pick=e.target.closest('[data-team-soul-pick]'),kind=e.target.closest('[data-team-soul-kind]');
+ if(open){if(Date.now()<teamSoulSuppressUntil){e.preventDefault();return;}teamSoulOpen(Number(open.dataset.teamSoulOpen));}
+ else if(select)teamSoulSelect(Number(select.dataset.teamSoulSelect));
+ else if(swap){if(selectedTeamSouls.length===2){teamSouls=TeamSoulStore.swap(teamSouls,...selectedTeamSouls);selectedTeamSouls=[];teamNotice='Đã đổi ngự.';saveTeam();drawTeam();}}
+ else if(pick&&teamSoulEdit){teamSoulEdit[teamSoulEdit.kind]=String(pick.dataset.teamSoulPick);teamSoulRender();}
+ else if(kind&&teamSoulEdit){teamSoulEdit.kind=kind.dataset.teamSoulKind;teamSoulRender();}
+ else if(e.target.closest('[data-team-soul-clear-secondary]')&&teamSoulEdit){teamSoulEdit.secondary='';teamSoulRender();}
+ else if(e.target.closest('[data-team-soul-cancel]')){teamSoulDialog().close();teamSoulEdit=null;}
+ else if(e.target.closest('[data-team-soul-remove]')&&teamSoulEdit){teamSouls[teamSoulEdit.index]=null;teamSoulDialog().close();teamSoulEdit=null;saveTeam();drawTeam();}
+ else if(e.target.closest('[data-team-soul-apply]')&&teamSoulEdit){if(!teamSoulEdit.primary){alert('Hãy chọn bộ ngự chính.');return;}const {index,primary,secondary,mainStats}=teamSoulEdit;teamSouls[index]={soulId:primary,secondaryId:secondary,mainStats:{...mainStats}};teamSoulDialog().close();teamSoulEdit=null;saveTeam();drawTeam();}
+});
+document.addEventListener('change',e=>{if(!teamSoulEdit)return;if(e.target.matches('[data-team-soul-stat]'))teamSoulEdit.mainStats[e.target.dataset.teamSoulStat]=e.target.value;else if(e.target.matches('[data-team-soul-filter]')){teamSoulEdit.filter=e.target.value;teamSoulRender();}});
+document.addEventListener('input',e=>{if(teamSoulEdit&&e.target.matches('[data-team-soul-search]')){const pos=e.target.selectionStart;teamSoulEdit.query=e.target.value;teamSoulRender();const el=teamSoulDialog().querySelector('[data-team-soul-search]');el.focus();el.setSelectionRange(pos,pos);}});
+document.addEventListener('pointerdown',e=>{const target=e.target.closest('[data-team-soul-open]');if(!target||e.button!==0)return;const index=Number(target.dataset.teamSoulOpen),x=e.clientX,y=e.clientY;clearTimeout(teamSoulHold?.timer);teamSoulHold={x,y,timer:setTimeout(()=>{teamSoulSuppressUntil=Date.now()+800;teamSoulSelect(index);teamSoulHold=null;},550)};});
+document.addEventListener('pointermove',e=>{if(teamSoulHold&&Math.hypot(e.clientX-teamSoulHold.x,e.clientY-teamSoulHold.y)>10){clearTimeout(teamSoulHold.timer);teamSoulHold=null;}});
+for(const event of ['pointerup','pointercancel'])document.addEventListener(event,()=>{if(teamSoulHold){clearTimeout(teamSoulHold.timer);teamSoulHold=null;}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&selectedTeamSouls.length&&!teamSoulDialog().open){selectedTeamSouls=[];teamNotice='Đã bỏ chọn ngự.';drawTeam();}});
+/* Đội cộng đồng chỉ có thức thần: tránh ngự cũ bám vào đội vừa sao chép. */
+document.addEventListener('click',e=>{if(e.target.closest('[data-cloud-copy],[data-curated-copy]')){const previous=teamSlots;setTimeout(()=>{if(teamSlots!==previous){teamSouls=TeamSoulStore.empty();selectedTeamSouls=[];saveTeam();if(state.view==='team')drawTeam();}});}if(e.target.closest('[data-share-team]')&&teamSouls.some(Boolean))setTimeout(()=>{const preview=document.querySelector('#share-preview');if(preview&&document.querySelector('#share-dialog')?.open)preview.textContent+='\n\nLưu ý: ngự chưa được chia sẻ cùng đội.';});},true);

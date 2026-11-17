@@ -5,7 +5,7 @@
     const raw = storage.getItem(KEY);
     if (raw !== null) {
       const value = JSON.parse(raw);
-      if (value.version !== 1 || !Array.isArray(value.teams) || !value.teams.every(t => typeof t.id === 'string' && typeof t.name === 'string' && validSlots(t.slots))) throw Error('Dữ liệu đội đã lưu không hợp lệ');
+      if (value.version !== 1 || !Array.isArray(value.teams) || !value.teams.every(t => typeof t.id === 'string' && typeof t.name === 'string' && validSlots(t.slots) && (t.souls === undefined || TeamSoulStore.validBuilds(t.souls)))) throw Error('Dữ liệu đội đã lưu không hợp lệ');
       return value.teams;
     }
     const old = storage.getItem(LEGACY);
