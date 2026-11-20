@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const {applyReport}=require('./rank-trend.cjs');
 
 function convert(rows, heroes, meta, options = {}) {
   if (!Array.isArray(rows) || !Number.isInteger(meta.total) || !meta.total || (rows.length !== meta.total && !(options.allowExtra && rows.length > meta.total))) throw Error('Nguồn không trả đủ số đội đã công bố.');
@@ -17,7 +18,7 @@ function convert(rows, heroes, meta, options = {}) {
     seen.add(key);
     return {id:`yysrank-${meta.updatedAt.slice(0,10).replaceAll('-','')}-${String(i+1).padStart(2,'0')}`,rank:i+1,winRate:row.winRate,pickRate:row.pickRate,picks:row.picks,slots:[...ids,...Array(5).fill(null)]};
   });
-  return {source:{name:'阳间斗技',url:'https://yysrank.win/query/team',updatedAt:meta.updatedAt,filter:`PvP · Danh sĩ từ 0 sao · ${meta.period} · tối thiểu 100 lượt chọn`,metric:'外战胜率'},teams};
+  return {source:{name:'阳间斗技',url:'https://yysrank.win/query/team',updatedAt:meta.updatedAt,scope:{period:meta.period,rank:meta.rank,upper:meta.upper,length:meta.length,minimum:meta.minimum},filter:`PvP · Danh sĩ từ 0 sao · ${meta.period} · tối thiểu 100 lượt chọn`,metric:'外战胜率'},teams};
 }
 
 async function readPage(page) {
@@ -91,10 +92,9 @@ async function main() {
     const snapshot=convert(report.teams,heroes,report.source,{allowExtra:args.includes('--accept-extra')});
     const target=path.join(repo,'curated/yysrank-top20.json');
     console.log(`Bản duyệt: nguồn báo ${report.reportedTotal}, đọc ${report.collectedRows} đội; ${snapshot.teams.length} đội hợp lệ.`);
-    if(dry){console.log('Chạy thử: không ghi file.');return;}
-    const temporary=target+'.tmp';
-    try {fs.writeFileSync(temporary,JSON.stringify(snapshot,null,2)+'\n','utf8');fs.renameSync(temporary,target);}
-    finally {if(fs.existsSync(temporary))fs.unlinkSync(temporary);}
+    const result=applyReport(target,snapshot,report.collectedAt,{dry});
+    if(dry){console.log('Chạy thử: không ghi file. '+(result.snapshot.comparison?.available?'Có kỳ trước để so sánh.':'Chưa có kỳ trước phù hợp.'));return;}
+    if(result.unchanged){console.log('Dữ liệu nguồn cùng kỳ cập nhật đã được áp dụng; giữ nguyên so sánh trước đó.');return;}
     console.log(`Đã cập nhật ${target}. Kiểm tra thay đổi trước khi commit/push.`);return;
   }
   const {chromium} = require('playwright-core');
@@ -122,9 +122,7 @@ async function main() {
     const snapshot=convert(result.rows,heroes,result.meta);
     console.log(`Nguồn ${snapshot.source.updatedAt}: ${snapshot.teams.length} đội; #1 ${snapshot.teams[0].winRate}%`);
     if(dry){console.log('Chạy thử: không ghi file.');return;}
-    const temporary=target+'.tmp';
-    try {fs.writeFileSync(temporary,JSON.stringify(snapshot,null,2)+'\n','utf8');fs.renameSync(temporary,target);}
-    finally {if(fs.existsSync(temporary))fs.unlinkSync(temporary);}
+    applyReport(target,snapshot,new Date().toISOString());
     console.log(`Đã cập nhật ${target}. Kiểm tra thay đổi trước khi commit/push.`);
   } finally {await browser.close();}
 }
