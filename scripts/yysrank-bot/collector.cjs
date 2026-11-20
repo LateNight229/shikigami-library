@@ -1,12 +1,12 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-function convert(rows, heroes, meta) {
-  if (!Array.isArray(rows) || !Number.isInteger(meta.total) || !meta.total || rows.length !== meta.total) throw Error('Nguồn không trả đủ số đội đã công bố.');
+function convert(rows, heroes, meta, options = {}) {
+  if (!Array.isArray(rows) || !Number.isInteger(meta.total) || !meta.total || (rows.length !== meta.total && !(options.allowExtra && rows.length > meta.total))) throw Error('Nguồn không trả đủ số đội đã công bố.');
   if (!meta.updatedAt || !meta.period || meta.minimum !== 100 || meta.rank !== '名仕(0星)' || meta.upper !== '不设上限' || meta.length !== '完整阵容') throw Error('Bộ lọc nguồn thay đổi hoặc không đọc được; giữ nguyên dữ liệu cũ.');
   const seen = new Set();
   const teams = rows.map((row, i) => {
-    if (row.rank !== i + 1 || row.names.length !== 5 || !Number.isFinite(row.winRate) || row.winRate < 0 || row.winRate > 100 || !Number.isInteger(row.picks) || row.picks < 100 || (i && rows[i-1].winRate < row.winRate)) throw Error(`Dữ liệu hoặc thứ tự đội ${i+1} không hợp lệ.`);
+    if (row.rank !== i + 1 || row.names.length !== 5 || !Number.isFinite(row.winRate) || row.winRate < 0 || row.winRate > 100 || !Number.isFinite(row.pickRate) || row.pickRate < 0 || row.pickRate > 100 || !Number.isInteger(row.picks) || row.picks < 100 || (i && rows[i-1].winRate < row.winRate)) throw Error(`Dữ liệu hoặc thứ tự đội ${i+1} không hợp lệ.`);
     const ids = row.names.map(name => {
       const matches = heroes.filter(h => h.name?.zh === name);
       if (matches.length !== 1) throw Error(`Không ánh xạ được thức thần: ${name} (${matches.length} kết quả).`);
@@ -15,7 +15,7 @@ function convert(rows, heroes, meta) {
     const key = [...ids].sort().join(',');
     if (seen.has(key)) throw Error(`Đội ${i+1} bị trùng.`);
     seen.add(key);
-    return {id:`yysrank-${meta.updatedAt.slice(0,10).replaceAll('-','')}-${String(i+1).padStart(2,'0')}`,rank:i+1,winRate:row.winRate,picks:row.picks,slots:[...ids,...Array(5).fill(null)]};
+    return {id:`yysrank-${meta.updatedAt.slice(0,10).replaceAll('-','')}-${String(i+1).padStart(2,'0')}`,rank:i+1,winRate:row.winRate,pickRate:row.pickRate,picks:row.picks,slots:[...ids,...Array(5).fill(null)]};
   });
   return {source:{name:'阳间斗技',url:'https://yysrank.win/query/team',updatedAt:meta.updatedAt,filter:`PvP · Danh sĩ từ 0 sao · ${meta.period} · tối thiểu 100 lượt chọn`,metric:'外战胜率'},teams};
 }
@@ -80,11 +80,24 @@ function csvReport(report) {
 }
 
 async function main() {
-  const {chromium} = require('playwright-core');
   const args=process.argv.slice(2), dry=args.includes('--dry-run'), apply=args.includes('--apply');
   const option=name=>{const i=args.indexOf(name);return i<0?null:args[i+1];};
   const repo=path.resolve(option('--repo')||'E:/1_Github/shikigami-library');
   const heroes=JSON.parse(fs.readFileSync(path.join(repo,'data/shikigami-catalog.json'),'utf8')).heroes;
+  const reportPath=option('--apply-report');
+  if(reportPath){
+    const report=JSON.parse(fs.readFileSync(path.resolve(reportPath),'utf8'));
+    if(!Array.isArray(report.teams) || report.collectedRows!==report.teams.length || report.reportedTotal!==report.source?.total || report.issueCount!==0 || report.teams.some(t=>!Array.isArray(t.issues)||t.issues.length)) throw Error('Bản duyệt không đầy đủ hoặc có cảnh báo từng đội.');
+    const snapshot=convert(report.teams,heroes,report.source,{allowExtra:args.includes('--accept-extra')});
+    const target=path.join(repo,'curated/yysrank-top20.json');
+    console.log(`Bản duyệt: nguồn báo ${report.reportedTotal}, đọc ${report.collectedRows} đội; ${snapshot.teams.length} đội hợp lệ.`);
+    if(dry){console.log('Chạy thử: không ghi file.');return;}
+    const temporary=target+'.tmp';
+    try {fs.writeFileSync(temporary,JSON.stringify(snapshot,null,2)+'\n','utf8');fs.renameSync(temporary,target);}
+    finally {if(fs.existsSync(temporary))fs.unlinkSync(temporary);}
+    console.log(`Đã cập nhật ${target}. Kiểm tra thay đổi trước khi commit/push.`);return;
+  }
+  const {chromium} = require('playwright-core');
   const browser=await chromium.launch({channel:'msedge',headless:true});
   try {
     const page=await browser.newPage(); let result, lastError;
