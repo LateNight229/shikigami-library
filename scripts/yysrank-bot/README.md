@@ -8,7 +8,7 @@ node collector.cjs --full --dry-run
 node collector.cjs --apply
 ```
 
-`--full` đọc tất cả trang theo bộ lọc mặc định và xuất file JSON cùng CSV trong `output/`, không thay dữ liệu website. CSV mở bằng Excel; JSON ghi thêm tổng nguồn báo, số dòng thu được, tên, ID và cảnh báo. Lần chạy ngày 16/11 nguồn báo 684 đội nhưng trả 693 dòng; bot giữ nguyên mọi dòng và ghi cảnh báo. Một đội có tên chưa khớp catalog. Kiểm tra dữ liệu trước khi dùng. `--dry-run` không tạo file. Chỉ lệnh `--apply` mới thay snapshot website; khi kết hợp `--full`, bot từ chối ghi nếu tổng nguồn không khớp hoặc dữ liệu có lỗi. Website hiện thiết kế cho 20 đội, cần sửa giao diện trước khi áp dụng full. Không tự chạy định kỳ, tự commit hay push.
+`--full` xuất JSON và CSV để duyệt, không thay dữ liệu website; `--dry-run` không ghi file. Dùng bảng điều khiển hoặc `node collector.cjs --apply-report <file>` để áp dụng bản đã duyệt; nếu nguồn trả dư, chỉ thêm `--accept-extra` sau khi kiểm tra các dòng dư. Mỗi thời điểm cập nhật mới của nguồn lưu dữ liệu hiện tại vào `curated/team-periods.json` trước khi thay kỳ hiện tại. Áp dụng lại cùng dữ liệu không tạo thêm kỳ. Bot so hạng đội theo 5 ID với kỳ ngay trước nếu các bộ lọc khác ngoài tên kỳ khớp; hạng cũ vượt số đội kỳ mới và đội không khớp để trống. Các bảng đội và đề cử thức thần dùng chung kỳ được chọn; tối đa 5 kỳ gần nhất hiển thị, dữ liệu cũ hơn vẫn được lưu. Không tự chạy định kỳ, commit hay push.
 
 `npm test` kiểm tra các tình huống dữ liệu hợp lệ và lỗi. Trang nguồn có thể thay đổi; nếu trang yêu cầu đăng nhập hoặc không truy cập được, bot sẽ báo lỗi.
 

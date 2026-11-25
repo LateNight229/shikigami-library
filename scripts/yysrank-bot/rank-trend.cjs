@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const teamKey=t=>t.slots.slice(0,5).map(String).sort().join('|');
 function scope(source){const keys=['period','rank','upper','length','minimum'];if(!source||keys.some(k=>source[k]==null))return null;return JSON.stringify(keys.map(k=>source[k]));}
+function filters(source){const keys=['rank','upper','length','minimum'];if(!source||keys.some(k=>source[k]==null))return null;return JSON.stringify(keys.map(k=>source[k]));}
 function addTrend(current,previous,options={}){
  const matching=previous&&previous.source?.updatedAt!==current.source.updatedAt&&(options.allowCrossPeriod||(scope(current.source.scope)&&scope(current.source.scope)===scope(previous.source?.scope)));
  const old=matching?new Map(previous.teams.map(t=>[teamKey(t),t.rank])):new Map();let max=0;
@@ -14,13 +15,13 @@ function applyReport(target,snapshot,collectedAt,{dry=false}={}){
  if(existing?.source?.updatedAt===snapshot.source.updatedAt&&scope(existing.source.scope)===scope(snapshot.source.scope)&&scope(snapshot.source.scope)){const rows=x=>JSON.stringify(x.teams.map(t=>[teamKey(t),t.rank,t.winRate,t.pickRate,t.picks]));if(rows(existing)!==rows(snapshot))throw Error('Cùng thời điểm nguồn nhưng dữ liệu khác; cần kiểm tra trước khi áp dụng.');return {snapshot:existing,unchanged:true};}
  if(existing?.source?.updatedAt&&existing.source.updatedAt>snapshot.source.updatedAt)throw Error('Bản duyệt cũ hơn dữ liệu đang áp dụng; không thay thế.');
  const archivePath=path.join(path.dirname(target),'team-periods.json');const registry=fs.existsSync(archivePath)?JSON.parse(fs.readFileSync(archivePath,'utf8')):{periods:[]};if(!Array.isArray(registry.periods))throw Error('Danh sách kỳ không hợp lệ.');
- const same=existing&&scope(existing.source.scope)===scope(snapshot.source.scope);const prior=same?existing:registry.periods.find(p=>scope(p.snapshot?.source?.scope)===scope(snapshot.source.scope))?.snapshot;
- const prepared=addTrend(snapshot,prior);prepared.source.collectedAt=collectedAt;
+ const compatible=existing&&filters(snapshot.source.scope)&&filters(snapshot.source.scope)===filters(existing.source?.scope);
+ const prepared=addTrend(snapshot,compatible?existing:null,{allowCrossPeriod:!!compatible&&scope(existing.source.scope)!==scope(snapshot.source.scope)});prepared.source.collectedAt=collectedAt;
  if(dry)return {snapshot:prepared,unchanged:false};
  fs.mkdirSync(directory,{recursive:true});
  const archive=(obj)=>{const stamp=(obj.source?.collectedAt||obj.source?.updatedAt||'unknown').replace(/[^\dTZ-]/g,'-');const json=JSON.stringify(obj,null,2)+'\n';const digest=crypto.createHash('sha256').update(json).digest('hex').slice(0,12);const name=path.join(directory,`${stamp}-${digest}.json`);if(!fs.existsSync(name))fs.writeFileSync(name,json,{flag:'wx'})};
  if(existing)archive(existing);archive(prepared);
- if(existing&&!same){const label=existing.source.scope?.period||existing.source.filter||'Kỳ trước';const id=crypto.createHash('sha256').update(scope(existing.source.scope)||label).digest('hex').slice(0,16);const periods=registry.periods.filter(p=>p.id!==id&&scope(p.snapshot?.source?.scope)!==scope(snapshot.source.scope));periods.unshift({id,label,snapshot:existing});const archiveTemp=archivePath+'.tmp';try{fs.writeFileSync(archiveTemp,JSON.stringify({periods},null,2)+'\n');fs.renameSync(archiveTemp,archivePath)}finally{if(fs.existsSync(archiveTemp))fs.unlinkSync(archiveTemp)}}
+ if(existing){const label=`${existing.source.scope?.period||existing.source.filter||'Kỳ trước'} · ${existing.source.updatedAt||'không rõ thời gian'} · ${existing.teams.length} đội`;const id=crypto.createHash('sha256').update(JSON.stringify([scope(existing.source.scope),existing.source.updatedAt])).digest('hex').slice(0,16);const periods=registry.periods.filter(p=>p.id!==id);periods.unshift({id,label,snapshot:existing});const archiveTemp=archivePath+'.tmp';try{fs.writeFileSync(archiveTemp,JSON.stringify({periods},null,2)+'\n');fs.renameSync(archiveTemp,archivePath)}finally{if(fs.existsSync(archiveTemp))fs.unlinkSync(archiveTemp)}}
  const tmp=target+'.tmp';try{fs.writeFileSync(tmp,JSON.stringify(prepared,null,2)+'\n');fs.renameSync(tmp,target)}finally{if(fs.existsSync(tmp))fs.unlinkSync(tmp)}
  return {snapshot:prepared,unchanged:false};
 }
