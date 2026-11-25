@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const ctx={document:{addEventListener(){}},state:{view:'hero',tab:'pvp',heroes:[{id:'1',name:{vi:'A'}},{id:'2',name:{vi:'B'}}]},esc:x=>String(x??''),image:(_,id)=>`/${id}.png`,localName:n=>n.vi,communitySoulsPanel:()=>'<div>Ngự cộng đồng</div>'};vm.createContext(ctx);
+const ctx={document:{addEventListener(){}},state:{view:'hero',tab:'pvp',heroes:[{id:'1',name:{vi:'A'}},{id:'2',name:{vi:'B'}}]},esc:x=>String(x??''),image:(_,id)=>`/${id}.png`,localName:n=>n.vi,periodSelect:()=>'<select></select>',communitySoulsPanel:()=>'<div>Ngự cộng đồng</div>'};vm.createContext(ctx);
 const modulePath=fs.existsSync(path.join(__dirname,'hero-pvp.js'))?path.join(__dirname,'hero-pvp.js'):path.join(__dirname,'../hero-pvp.js');
 vm.runInContext(fs.readFileSync(modulePath,'utf8')+'\nglobalThis.api={heroPvp,heroPvpStatsPanel,heroTeamPanel,heroAllyCounts,heroAlliesPanel,heroCountersPanel,heroSoulsPanel}',ctx);
 const {heroPvp,heroPvpStatsPanel,heroTeamPanel,heroAllyCounts,heroAlliesPanel,heroCountersPanel,heroSoulsPanel}=ctx.api;
