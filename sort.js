@@ -2,6 +2,13 @@
 (function (root) {
   const allowed = new Set(['hp', 'atk', 'def', 'speed', 'crit', 'critDamage']);
   function sortHeroes(heroes, key, direction) {
+    if (key === 'default') return heroes.map((hero, index) => ({hero, index})).sort((a, b) => {
+      const number = id => /^\d+$/.test(String(id)) ? Number(id) : NaN;
+      const av = number(a.hero.id), bv = number(b.hero.id);
+      const aValid = Number.isSafeInteger(av), bValid = Number.isSafeInteger(bv);
+      if (!aValid || !bValid) return aValid === bValid ? a.index - b.index : aValid ? -1 : 1;
+      return bv - av || a.index - b.index;
+    }).map(item => item.hero);
     if (!allowed.has(key)) return heroes.slice();
     const sign = direction === 'asc' ? 1 : -1;
     return heroes.map((hero, index) => ({hero, index})).sort((a, b) => {
