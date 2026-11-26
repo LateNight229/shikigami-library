@@ -1,5 +1,5 @@
 /* Anonymous player sessions and a separate admin session; no secret key in client. */
-const cloud = {guest:null, admin:null, list:[], adminRows:[], sort:'recent', offset:0, search:'', loading:false, error:'', tab:'mine', adminOpen:false, expanded:null, curated:null, curatedLoading:false, curatedError:false, curatedSort:'winRate', curatedDir:'desc', curatedPage:0, curatedQuery:'', curatedMinPicks:0};
+const cloud = {guest:null, admin:null, list:[], adminRows:[], sort:'recent', offset:0, search:'', loading:false, error:'', tab:'curated', adminOpen:false, expanded:null, curated:null, curatedLoading:false, curatedError:false, curatedSort:'winRate', curatedDir:'desc', curatedPage:0, curatedQuery:'', curatedMinPicks:0};
 function curatedFilterTeams(teams,heroes,query,minPicks){
   const term=norm(query.trim());
   const matching=new Set(term?heroes.filter(h=>norm([h.name?.vi,h.name?.en,h.name?.zh,h.id].filter(Boolean).join(' ')).includes(term)).map(h=>String(h.id)):[]);
