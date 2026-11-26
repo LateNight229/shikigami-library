@@ -3,8 +3,8 @@
   const read = (key, fallback) => { try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; } };
   const save = (key, value) => { try { localStorage.setItem(key, value); } catch { /* Session-only preference. */ } };
   let mode = read('heian.theme', 'light') === 'dark' ? 'dark' : 'light';
-  let appearance = read('heian.appearance', 'default');
-  if (!['default', 'autumn', 'winter'].includes(appearance)) appearance = 'default';
+  let appearance = read('heian.appearance', 'autumn');
+  if (!['default', 'autumn', 'winter'].includes(appearance)) appearance = 'autumn';
   const apply = () => { document.documentElement.dataset.theme = appearance !== 'default' ? 'light' : mode; document.documentElement.dataset.appearance = appearance; };
   apply();
   document.addEventListener('DOMContentLoaded', () => {
@@ -32,12 +32,11 @@
       windButton.textContent = 'Tắt gió'; windButton.setAttribute('aria-pressed', 'true');
     }
     windButton.addEventListener('click', () => windSource ? stopWind() : startWind());
-    const tracks = { autumn: 'sources/sounds/onmyoji-winter.mp3', winter: 'sources/sounds/onmyoji-antumn.mp3' };
-    const audio = new Audio(tracks.autumn);
-    let activeTrack = 'autumn';
+    const tracks = { default: 'sources/sounds/onmyoji-main.m4a', autumn: 'sources/sounds/onmyoji-winter.mp3', winter: 'sources/sounds/onmyoji-antumn.mp3' };
+    const audio = new Audio(tracks[appearance]);
+    let activeTrack = appearance;
     audio.loop = true;
     audio.preload = 'none';
-    let enabled = read('heian.music.enabled', 'true') !== 'false';
     const storedVolume = Number(read('heian.music.volume', '0.3'));
     audio.volume = Number.isFinite(storedVolume) ? Math.max(0, Math.min(1, storedVolume)) : 0.3;
     volume.value = String(audio.volume);
@@ -49,18 +48,17 @@
     function update() {
       if (appearance !== 'winter') stopWind();
       windButton.hidden = appearance !== 'winter';
-      apply(); select.value = appearance; button.hidden = appearance !== 'default'; controls.hidden = appearance === 'default';
+      apply(); select.value = appearance; button.hidden = appearance !== 'default'; controls.hidden = false;
       button.textContent = mode === 'dark' ? '☀' : '☾';
       button.setAttribute('aria-label', mode === 'dark' ? 'Chuyển sang giao diện sáng' : 'Chuyển sang giao diện tối');
       button.title = button.getAttribute('aria-label'); button.setAttribute('aria-pressed', String(mode === 'dark'));
       document.getElementById('autumn-leaves')?.remove();
       document.getElementById('winter-snow')?.remove();
-      if (appearance !== 'default' && appearance !== activeTrack) { audio.pause(); audio.src = tracks[appearance]; activeTrack = appearance; }
+      if (appearance !== activeTrack) { audio.pause(); audio.src = tracks[appearance]; activeTrack = appearance; }
       if (appearance === 'autumn') {
         const leaves = document.createElement('div'); leaves.id = 'autumn-leaves'; leaves.setAttribute('aria-hidden', 'true');
         for (let i = 0; i < 9; i++) { const leaf = document.createElement('span'); leaf.textContent = '🍁'; leaf.style.setProperty('--x', `${Math.random() * 100}%`); leaf.style.setProperty('--size', `${10 + Math.random() * 14}px`); leaf.style.setProperty('--duration', `${12 + Math.random() * 14}s`); leaf.style.setProperty('--delay', `${-Math.random() * 26}s`); leaf.style.setProperty('--drift', `${Math.round(Math.random() * 130 - 65)}px`); leaf.style.setProperty('--opacity', `${0.3 + Math.random() * 0.45}`); leaves.appendChild(leaf); }
         document.body.appendChild(leaves);
-        if (enabled) play();
       } else if (appearance === 'winter') {
         const snow = document.createElement('div'); snow.id = 'winter-snow'; snow.setAttribute('aria-hidden', 'true');
         for (let i = 0; i < 42; i++) {
@@ -80,13 +78,13 @@
           snow.appendChild(gust);
         }
         document.body.appendChild(snow);
-        if (enabled) play();
-      } else { audio.pause(); status.textContent = ''; }
+      }
     }
-    select.addEventListener('change', () => { appearance = ['autumn', 'winter'].includes(select.value) ? select.value : 'default'; save('heian.appearance', appearance); update(); });
+    select.addEventListener('change', () => { appearance = ['autumn', 'winter'].includes(select.value) ? select.value : 'default'; save('heian.appearance', appearance); update(); play(); });
     button.addEventListener('click', () => { mode = mode === 'dark' ? 'light' : 'dark'; save('heian.theme', mode); update(); });
-    toggle.addEventListener('click', () => { if (audio.paused) { enabled = true; save('heian.music.enabled', 'true'); play(); } else { enabled = false; save('heian.music.enabled', 'false'); audio.pause(); status.textContent = ''; } });
+    toggle.addEventListener('click', () => { if (audio.paused) { play(); } else { audio.pause(); status.textContent = ''; } });
     volume.addEventListener('input', () => { audio.volume = Number(volume.value); if (windGain) windGain.gain.value = 0.12 * audio.volume; save('heian.music.volume', volume.value); });
     update();
+    play();
   });
 })();
