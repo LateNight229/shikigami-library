@@ -13,3 +13,5 @@
 - Bot đã có, bảng điều khiển PvP và Thức Thần Lục: `docs/BOTS.md`.
 - Cào đội PvP: `scripts/yysrank-bot/README.md`; Kamigame: `scripts/kamigame-bot/README.md`.
 - Milestone và thiết kế bot tin: chỉ đọc phần liên quan trong `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/docs/MILESTONES.md` và `docs/DESIGN.md` tại repo đó.
+
+- Tạo hoặc chỉnh theme: đọc `docs/THEME_WORKFLOW.md`.
