@@ -6,3 +6,5 @@
 - Mỗi milestone dùng một nhánh `feat/milestone-N`, tiếp tục dùng nhánh đó; nếu chuyển chat giữa chừng, ghi IN_PROGRESS và tiếp tục đúng milestone. Trạng thái: NOT_STARTED → IN_PROGRESS → READY_FOR_REVIEW → APPROVED → DONE. Chỉ DONE khi đạt tiêu chí, được duyệt và xác minh merge vào main.
 - Trước checkpoint và khi kết thúc chat, ghi ngắn vào PROGRESS: đã làm/chưa làm, kiểm tra thực tế, quyết định và cách thử không đạt, đầu ra, nhánh/base/commit hoặc PR, tài nguyên local cần tái tạo, bước tiếp theo. Không ghi SHA tự tham chiếu của commit đang tạo; sau merge xác minh bằng Git/PR.
 - Không đưa tiến độ riêng vào template dùng chung. Commit nhỏ với message `feat: ...`, `fix: ...` hoặc `chore: ...`; không push/merge khi chưa được phép.
+
+- Chống lỗi lặp tải ảnh thức thần: khi JSON chưa tải xong phải hiển thị ngay icon thức thần, đồng thời bắt đầu tải ảnh lớn; không thay bằng màn hình chữ chờ. Giữ tải trước ảnh liền kề và kiểm tra mạng chậm, chuyển nhanh, ảnh lỗi sau mọi thay đổi luồng chọn hoặc hiển thị thức thần.
