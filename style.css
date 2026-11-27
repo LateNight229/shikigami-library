@@ -57,3 +57,17 @@ html[data-theme="dark"] .stat-card .stat-rank-top{color:#ffe3a1;background:#7049
 html[data-theme="dark"] .stat-card .stat-rank-1{color:#5a2900;background:#ffc83d}
 html[data-theme="dark"] .stat-card .stat-rank-2{color:#263c4d;background:#d7e4ee}
 html[data-theme="dark"] .stat-card .stat-rank-3{color:#5b2b18;background:#efbd96}
+
+.hero-layout .hero-card:has(.portrait-r2){overflow:hidden}
+.hero-layout .hero-portrait.portrait-r2{top:0;bottom:auto;left:50%;width:auto;max-width:none;height:100%;transform:translateX(-50%);object-fit:contain;pointer-events:none;z-index:2}
+.hero-layout .hero-content,.hero-layout .hero-arrow,.hero-layout .hero-rarity{z-index:3}
+.hero-layout .stat-card,.hero-layout .content-card{position:relative;z-index:auto}
+.hero-layout .stat-card>*,.hero-layout .content-card>*{position:relative;z-index:3}
+.hero-layout .content-card>.tabs{position:sticky}
+
+html .hero-layout .stat-card .stat-head{background:transparent;z-index:auto}
+.hero-layout .stat-head::before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(135deg,#f9e3e7,#f7eeea)}
+html[data-appearance="autumn"] .hero-layout .stat-head::before{background:linear-gradient(135deg,#f7e8d1,#f0dac0)}
+html[data-appearance="winter"] .hero-layout .stat-head::before{background:linear-gradient(135deg,#e2eff2,#d3e5e9)}
+html[data-theme="dark"] .hero-layout .stat-head::before{background:linear-gradient(135deg,#4a303e,#3c2b37)}
+.hero-layout .stat-head>*{position:relative;z-index:3}

@@ -25,7 +25,7 @@ function hideTeamInfo() { $('#team-info').hidden = true; }
 function showTeamInfo(id, anchor) {
   const hero = teamHero(id); if (!hero || state.view !== 'team') return;
   const popup = $('#team-info');
-  popup.innerHTML = `<div class="team-info-head"><div><span class="eyebrow">THÔNG TIN THỨC THẦN</span><h3>${esc(localName(hero.name))}</h3><p>Lv. ${esc(hero.level ?? 40)}/${esc(hero.maxLevel ?? 40)} · ${esc(hero.rarity || '—')}</p><p class="source">Dữ liệu tham khảo · chưa xác minh phiên bản.</p></div></div><div class="stat-list">${statRows(hero.stats)}</div>`;
+  popup.innerHTML = `<div class="team-info-head"><div><span class="eyebrow">THÔNG TIN THỨC THẦN</span><h3>${esc(localName(hero.name))}</h3><p>Lv. ${esc(hero.level ?? 40)}/${esc(hero.maxLevel ?? 40)} · ${esc(hero.rarity || '—')}</p></div></div><div class="stat-list">${statRows(hero.stats)}</div>`;
   popup.hidden = false;
   const bounds = anchor.getBoundingClientRect(), box = popup.getBoundingClientRect();
   const left = bounds.right + 10 + box.width <= innerWidth ? bounds.right + 10 : Math.max(8, bounds.left - box.width - 10);
