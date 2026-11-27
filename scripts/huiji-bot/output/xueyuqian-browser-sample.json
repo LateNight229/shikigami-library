@@ -1,0 +1,16 @@
+{
+  "source_url": "https://yys.huijiwiki.com/wiki/%E9%9B%AA%E5%BE%A1%E5%89%8D",
+  "source_method": "browser DOM inspection, 2026-11-27",
+  "name_zh": "雪御前",
+  "hero_id_from_filenames": "591",
+  "introduction_zh": "既有龙胆幽玄之美，也有冰雪凌厉之姿的「巫女剑圣」。\n当平氏的烈焰呼啸而来，焚尽四野。\n在深渊之畔，她以凡躯冲破桎梏，将剑刃执于掌中。\n雪落无声，剑过无痕——\n优雅而果决的身姿中，清冽的灵力与锐利的剑锋相融，终抵至臻之境。\n灿然绽放的龙胆冲破火焰，千里冰封，璃花开遍。\n最洁净的雪是未冷的火，最灼目的火是未化的雪，冰与火的共振与永烬便在此刻。\n她孑然一身，踏雪前行，战局，由她逆转。",
+  "skins": [
+    {"sprite": "1", "name_zh": "默认", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/1/18/S_591_01.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/e/e0/Skin_591_01.png"},
+    {"sprite": "2", "name_zh": "觉醒", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/3/35/S_591_02.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/7/71/Skin_591_02.png"},
+    {"sprite": "3", "name_zh": "京紫", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/c/c3/S_591_03.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/a/a4/Skin_591_03.png"},
+    {"sprite": "4", "name_zh": "雪祈无祷", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/9/9f/S_591_04.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/1/12/Skin_591_04.png"},
+    {"sprite": "5", "name_zh": "雪祈无祷·臻藏", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/6/64/S_591_05.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/7/7c/Skin_591_05.png"},
+    {"sprite": "6", "name_zh": "墨成雪骨", "icon_url": "https://huiji-public.huijistatic.com/yys/uploads/a/aa/S_591_06.png", "image_url": "https://huiji-public.huijistatic.com/yys/uploads/2/28/Skin_591_06.png"}
+  ],
+  "limitations": ["Collected from rendered browser DOM; automated HTTP access to page and two tested image URLs returned 403.", "Character ID inferred from filenames; not matched against ShikiLib catalog."]
+}

@@ -1,0 +1,23 @@
+{
+  "source_url": "https://wiki.biligame.com/yys/笼梦祸津神",
+  "name_zh": "笼梦祸津神",
+  "introduction_zh": "藤原绫子，本是藤原家的贵族小姐。 为了让母亲的灵魂重获自由，绫子选择以己身化作祸神的牢笼，后与刻世命一同出逃。 前尘旧事本已尽数了断，不料枷岛重现，恶兆再临。 藤原绫子选择撕裂牢笼，以人类之躯吞噬神明。 她承继旧神的权柄，于是不必再唱起召唤祸神的祷歌。 「痛苦」不是她的食粮，她无需继续徒劳地忍耐。 过去的法则已经废止，她将昭告此世灾厄的到来。",
+  "skins": [
+    {
+      "name_zh": "默认外观",
+      "image_url": "https://patchwiki.biligame.com/images/yys/2/27/ec23h5f0kly2ydyjsniddkhknd01gis.png",
+      "preview_url": "https://patchwiki.biligame.com/images/yys/thumb/2/27/ec23h5f0kly2ydyjsniddkhknd01gis.png/700px-%E7%AC%BC%E6%A2%A6%E7%A5%B8%E6%B4%A5%E7%A5%9E.png",
+      "width": "1160",
+      "height": "1160"
+    }
+  ],
+  "summon_video": {
+    "bvid": "BV1TC4y1d732",
+    "page": 176,
+    "url": "https://www.bilibili.com/video/BV1TC4y1d732?p=176",
+    "status": "found"
+  },
+  "warnings": [],
+  "collected_at_utc": "2026-11-26T16:29:11.590432+00:00",
+  "scope": "single_page_review"
+}
