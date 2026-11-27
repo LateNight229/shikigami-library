@@ -1,7 +1,7 @@
 /* Statistics and team snapshots are separate: do not infer one from the other. */
 const heroPvp={stats:null,teams:null,counters:null,kamigame:null,statsError:false,teamsError:false,countersError:false,kamigameError:false,loading:{},sort:'pickRate',direction:'desc',allyDirection:'desc',soulSource:'community',counterSource:'yysrank'};
 function heroPvpLoad(kind){
-  if(heroPvp[kind]||heroPvp.loading[kind]||heroPvp[kind+'Error'])return;
+  if((heroPvp[kind]&&(kind!=='teams'||teamPeriods.entries.length))||heroPvp.loading[kind]||heroPvp[kind+'Error'])return;
   const paths={stats:'curated/hero-pvp.json',teams:'curated/yysrank-top20.json',counters:'curated/hero-counters.json',kamigame:'curated/kamigame.json'};
   heroPvp.loading[kind]=true;
   (kind==='teams'?loadTeamPeriods().then(()=>teamPeriods.entries.find(x=>x.id===teamPeriods.selected)?.data||teamPeriods.current):getJson(paths[kind])).then(data=>{heroPvp[kind]=data;}).catch(()=>{heroPvp[kind+'Error']=true;}).finally(()=>{heroPvp.loading[kind]=false;if(state.view==='hero'&&((kind==='stats'&&state.tab==='pvp')||(kind==='teams'&&['hero-teams','hero-allies'].includes(state.tab))||(kind==='counters'&&state.tab==='hero-counters')||(kind==='kamigame'&&['hero-counters','souls'].includes(state.tab))))display();});
@@ -20,7 +20,7 @@ function kamigamePanel(hero,kind){
 function heroAllyCounts(id,teams){const wanted=String(id),matching=teams.filter(t=>t.slots.slice(0,5).some(x=>String(x)===wanted)),counts=new Map();for(const team of matching){const unique=new Set(team.slots.slice(0,5).filter(Boolean).map(String));unique.delete(wanted);for(const ally of unique)counts.set(ally,(counts.get(ally)||0)+1);}return {total:matching.length,allies:[...counts].map(([id,count])=>({id,count}))};}
 function heroAlliesPanel(hero){
   heroPvpLoad('teams');if(heroPvp.teamsError)return '<div class="card-body"><h3>Thức thần đề cử</h3><div class="message">Không tải được dữ liệu đội hình.</div></div>';
-  if(!heroPvp.teams)return '<div class="card-body"><h3>Thức thần đề cử</h3><div class="message">Đang tải dữ liệu…</div></div>';
+  if(!heroPvp.teams||!teamPeriods.entries.length)return '<div class="card-body"><h3>Thức thần đề cử</h3><div class="message">Đang tải dữ liệu…</div></div>';
   const {source,teams}=heroPvp.teams,{total,allies}=heroAllyCounts(hero.id,teams),direction=heroPvp.allyDirection==='asc'?1:-1;
   allies.sort((a,b)=>(a.count-b.count)*direction||a.id.localeCompare(b.id));
   const rows=allies.map(item=>{const member=state.heroes.find(x=>String(x.id)===item.id);const name=member?localName(member.name):`Thức thần #${item.id}`;return `<div class="hero-ally-row"><div><img loading="lazy" src="${image('shishen',item.id)}" alt=""><span>${esc(name)}</span></div><strong>${item.count}</strong><span>${(item.count/total*100).toFixed(1)}%</span></div>`;}).join('');
@@ -50,7 +50,7 @@ function heroPvpStatsPanel(hero){
 }
 function heroTeamPanel(hero){
   heroPvpLoad('teams');if(heroPvp.teamsError)return '<div class="card-body"><h3>Đội đề cử</h3><div class="message">Không tải được dữ liệu đội hình.</div></div>';
-  if(!heroPvp.teams)return '<div class="card-body"><h3>Đội đề cử</h3><div class="message">Đang tải đội hình…</div></div>';
+  if(!heroPvp.teams||!teamPeriods.entries.length)return '<div class="card-body"><h3>Đội đề cử</h3><div class="message">Đang tải đội hình…</div></div>';
   const {source,teams}=heroPvp.teams;const selected=teams.filter(t=>t.slots.slice(0,5).some(id=>String(id)===String(hero.id)));
   const field=heroPvp.sort,direction=heroPvp.direction==='asc'?1:-1;
   selected.sort((a,b)=>{const x=a[field],y=b[field];return x==null?(y==null?a.rank-b.rank:1):y==null?-1:(x-y)*direction||a.rank-b.rank;});
