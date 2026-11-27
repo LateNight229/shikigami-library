@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+const {pvpGuideRecommendations}=require('../pvp-guide.js');
+const sources=[{name:'A',field:'counters',heroes:{'1':{counters:[{id:'9'},{id:'9'},{id:'8'}]},'2':{counters:[{id:'9'}]}}},{name:'B',field:'weak',stale:true,heroes:{'1':{updatedAt:'2020',weak:[{id:'9'}]}}}];
+const results=pvpGuideRecommendations(['1','2','1'],sources);
+assert.deepEqual(results.map(x=>x.id),['9','8']);
+assert.equal(results[0].matches.size,2);assert.equal(results[0].matches.get('1').length,2);assert.equal(results[0].matches.get('1')[1].updatedAt,'2020');
+assert.deepEqual(pvpGuideRecommendations(['3'],sources),[]);
+console.log('pvp-guide recommendations: pass');
+const {pvpGuideRemaining}=require('../pvp-guide.js');
+const one=pvpGuideRemaining(results,['9']);
+assert.deepEqual([...one.covered],['1','2']);assert.equal(one.remaining.length,0);
+const partial=pvpGuideRemaining(results,['8']);assert.deepEqual([...partial.covered],['1']);assert.equal(partial.remaining.length,1);assert.deepEqual([...partial.remaining[0].matches.keys()],['2']);
+assert.equal(pvpGuideRemaining(results,[]).remaining.length,2);
+console.log('pvp-guide selected lineup: pass');
