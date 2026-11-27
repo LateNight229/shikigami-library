@@ -42,3 +42,5 @@ body{background:radial-gradient(ellipse at 18% 5%,#fffaf5 0,#f9edf0 45%,#f4dce2 
 
 .skill-variant.active{border:2px solid #fff4ab;box-shadow:0 0 0 2px #b65785,0 0 10px #e894bb;background:#fce7ef}
 .skill-variant:focus-visible,.skill-choice:focus-visible{outline:2px solid #84365e;outline-offset:2px}
+
+.sort-options #sort-period-wrap label{display:block;font-size:11px;font-weight:700;margin-bottom:6px}.sort-options .sort-sort-source{font-size:11px;line-height:1.4;margin:8px 0;color:inherit}.sort-options #sort-done{float:right}.sort-options{max-height:min(75vh,600px);overflow-y:auto}

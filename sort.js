@@ -1,6 +1,6 @@
 /* Pure numeric sorting; missing values stay last in either direction. */
 (function (root) {
-  const allowed = new Set(['hp', 'atk', 'def', 'speed', 'crit', 'critDamage']);
+  const allowed = new Set(['hp', 'atk', 'def', 'speed', 'crit', 'critDamage', 'pickRate', 'winRate', 'banRate', 'teamCount', 'teamPicks', 'teamWinRate', 'teamPickRate']);
   function sortHeroes(heroes, key, direction) {
     if (key === 'default') return heroes.map((hero, index) => ({hero, index})).sort((a, b) => {
       const number = id => /^\d+$/.test(String(id)) ? Number(id) : NaN;
@@ -12,8 +12,8 @@
     if (!allowed.has(key)) return heroes.slice();
     const sign = direction === 'asc' ? 1 : -1;
     return heroes.map((hero, index) => ({hero, index})).sort((a, b) => {
-      const av = a.hero.stats?.[key]?.value;
-      const bv = b.hero.stats?.[key]?.value;
+      const av = a.hero.sortMetrics?.[key] ?? a.hero.stats?.[key]?.value;
+      const bv = b.hero.sortMetrics?.[key] ?? b.hero.stats?.[key]?.value;
       const aValid = typeof av === 'number' && Number.isFinite(av);
       const bValid = typeof bv === 'number' && Number.isFinite(bv);
       if (!aValid || !bValid) return aValid === bValid ? a.index - b.index : aValid ? -1 : 1;
