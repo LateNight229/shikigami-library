@@ -19,5 +19,7 @@ Chạy `node collect-heroes.cjs --dry-run` để thử không ghi; chạy `node 
 
 `node collect-heroes.cjs --dry-run` kiểm tra mà không ghi file. `node collect-heroes.cjs` xuất thêm `output/hero-counters.json` để duyệt, cùng với file PvP; không tự cập nhật website. Bot đọc tất cả icon trong cột `受制于` nguồn thực sự hiển thị, không áp giới hạn ba, không truy cập dữ liệu Pro. Nguồn hiện có thể chỉ hiển thị ba icon và không có ý nghĩa là danh sách đầy đủ.
 
-Đối chiếu `source`, `unmatched`, `sourceCount` và danh sách `counters` trong file trước khi sao chép vào `curated/hero-counters.json`. Tên không khớp không tự gán ID, không lấy ID trực tiếp của nguồn. Chỉ áp dụng snapshot sau khi kiểm tra điều kiện thời gian, rank, số dòng và độ đầy đủ; giữ file cũ khi nguồn lỗi. Sau khi duyệt và cập nhật dữ liệu website, kiểm tra diff, commit và push theo quy trình repo.
+Dashboard local chạy cả hai bot trong một lượt, kiểm tra kỳ và rank chung rồi xuất báo cáo để duyệt. Khi áp dụng, nó cập nhật dữ liệu đội và `curated/hero-counter-periods.json` cùng nhau, giữ bản sao để khôi phục nếu lỗi; tên chưa khớp hoặc kỳ/rank lệch sẽ chặn áp dụng. Dữ liệu khắc chế kỳ 10/10 đã có sẵn; các kỳ không có snapshot không xuất hiện trong bộ chọn. Kỳ mới nhất có dữ liệu được chọn mặc định.
+
+`curated/hero-counters.json` là snapshot cũ dùng làm nguồn tạo kỳ ban đầu; giao diện hiện đọc `hero-counter-periods.json`. Nếu chạy bot độc lập, file output chỉ để kiểm tra, không tự cập nhật registry. Thông số `hero-pvp.json` vẫn có luồng nhập riêng. Không tự commit/push; nếu người dùng chủ động xuất bản bằng dashboard, ba file dữ liệu đội/kỳ và registry khắc chế được đưa vào cùng commit.
 

@@ -26,7 +26,7 @@ function normalizeCounters(data,heroes){
     entries[id]={nameZh:row.name,nameVi:matches[0].name.vi||null,counters,sourceCount:seen.size};
   }
   if(!Object.values(entries).some(x=>x.sourceCount))throw Error('Không đọc được icon khắc chế; không tạo dữ liệu rỗng.');
-  return {source:{name:'阳间斗技',url:'https://yysrank.win/query/shishen',updatedAt:data.updatedAt,period:data.period,rank:'Danh sĩ 0 sao trở lên',matches:data.matches,field:'受制于',meaning:'Bị khắc chế theo bảng xếp hạng nguồn'},collectedAt:new Date().toISOString(),unmatched,heroes:entries};
+  return {source:{name:'阳间斗技',url:'https://yysrank.win/query/shishen',updatedAt:data.updatedAt,period:data.period,rank:'Danh sĩ 0 sao trở lên',scope:{period:data.period,rank:data.rank,upper:data.upper},matches:data.matches,field:'受制于',meaning:'Bị khắc chế theo bảng xếp hạng nguồn'},collectedAt:new Date().toISOString(),unmatched,heroes:entries};
 }
 async function main(){
   const {chromium}=require('playwright-core'),args=process.argv.slice(2);

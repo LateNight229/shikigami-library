@@ -4,7 +4,7 @@
 
 - Bot tại `scripts/yysrank-bot/`; xem README trong thư mục này để biết cách cào, duyệt, áp dụng, kiểm tra và giới hạn. Mỗi bản nguồn mới được áp dụng tạo kỳ, giữ kỳ trước và đối chiếu hạng theo điều kiện trong README.
 - Trên máy hiện tại, shortcut `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/CHAY_BOT/00_BANG_DIEU_KHIEN - Shortcut.lnk` chạy bảng điều khiển từ `team-community/rank-dashboard/` của repo Bot_Onmyoji. Đây là tài nguyên local không nằm trong repo website; kiểm tra tồn tại khi tái tạo.
-- Bảng điều khiển cào, cho duyệt, áp dụng local, xem thử và có nút chủ động xuất bản. Nút xuất bản yêu cầu đã áp dụng trong phiên, nhánh `main`, không có file stage; commit `curated/yysrank-top20.json` và `curated/team-periods.json`, rồi push `origin/main`. Push thành công chưa chứng minh Pages đã build; không tự xuất bản khi chưa được phép.
+- Bảng điều khiển cào đội và khắc chế, cho duyệt, áp dụng local, xem thử và có nút chủ động xuất bản. Nút xuất bản yêu cầu đã áp dụng trong phiên, nhánh `main`, không có file stage; commit `curated/yysrank-top20.json`, `curated/team-periods.json` và `curated/hero-counter-periods.json`, rồi push `origin/main`. Push thành công chưa chứng minh Pages đã build; không tự xuất bản khi chưa được phép.
 
 ## Thức Thần Lục
 
