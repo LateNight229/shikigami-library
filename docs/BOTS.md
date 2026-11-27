@@ -9,5 +9,5 @@
 ## Thức Thần Lục
 
 - Trên máy hiện tại, `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/CHAY_BOT/01_THUCTHANLUC.bat` và `02_DANHGIA_NGU.bat` chạy `scrape_thucthanluc.js` và `scrape_community.js` trong `C:/Users/VanAnh/.gemini/antigravity/scratch/ecommerce_scraper_demo/`.
-- Hai nút xuất snapshot, không tự commit, push hoặc cập nhật website; chưa có bước tự nhập đánh giá/ngự. Kiểm tra dữ liệu và quy trình nhập phù hợp trước khi áp dụng; không đọc dữ liệu runtime để lấy ngữ cảnh mặc định.
+- Hai launcher cũ xuất snapshot, không tự commit, push hoặc cập nhật website. Dashboard local có thể chạy hai scraper, so sánh và sau khi người dùng duyệt thì nhập thức thần và ngự đề xuất vào website local; không tự nhập đánh giá hoặc xuất bản. Xem `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/team-community/rank-dashboard/README.md`.
 - Các launcher khác và chi tiết local: `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/CHAY_BOT/README.md`; tình trạng từng bot xem mục liên quan trong `docs/PROGRESS.md` của repo Bot_Onmyoji.

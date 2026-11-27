@@ -39,6 +39,9 @@ def prepare(source):
         detail = entry.get("detail")
         if not detail or str(detail["id"]) != str(entry["id"]):
             raise ValueError(f"Missing or mismatched detail: {entry['id']}")
+        skills = detail.get("skills")
+        if not isinstance(skills, list) or any(not isinstance(skill, dict) or not skill for skill in skills):
+            raise ValueError(f"Missing or invalid skills: {entry['id']}")
         hero_id = str(entry["id"])
         stat = {x["key"]: {"value": number(x.get("value")), "grade": x.get("grade") or None,
                             "unit": "percent" if x["key"] == "crit" else "flat"}
@@ -49,15 +52,13 @@ def prepare(source):
                   "tier": detail.get("tier"), "sex": detail.get("sex"), "level": detail.get("level"),
                   "maxLevel": detail.get("maxLevel"), "statState": detail.get("statState"),
                   "reviewStatus": detail.get("reviewStatus"), "stats": stat,
-                  "skills": detail.get("skills", []), "assets": detail.get("assets", {}),
+                  "skills": skills, "assets": detail.get("assets", {}),
                   "source": {"name": "Bộ dữ liệu do người dùng cung cấp từ thucthanluc.io.vn",
                              "url": f"https://thucthanluc.io.vn/?hero={hero_id}",
                              "status": "unverified_snapshot"}}
         records[hero_id] = record
         index.append({k: record[k] for k in ("id", "name", "rarity", "tier", "sex", "level", "stats", "assets")})
     skill_count = sum(len(record["skills"]) for record in records.values())
-    if skill_count != 851:
-        raise ValueError(f"Unexpected skill count: {skill_count}")
     metadata = {"schema": 1, "heroCount": len(index), "skillCount": skill_count,
                 "soulCount": len(souls["souls"]), "glossaryCount": len(glossary),
                 "source": "user_supplied_scraped_snapshot", "verified": False,

@@ -10,14 +10,14 @@
 ## Thức thần và ngự hồn từ Thức Thần Lục
 
 1. Chạy `C:/Users/VanAnh/.gemini/antigravity/scratch/ecommerce_scraper_demo/CHAY_CAO_THUCTHANLUC.bat`; bot ghi snapshot vào thư mục `thucthanluc_data` cạnh nó. Kiểm tra log để biết tải thành công hay lỗi; không suy ra đã cập nhật website.
-2. Website sử dụng dữ liệu riêng trong `data/`. `scripts/import_data.py --source <thu_muc_snapshot> --output data --dry-run` thử nhập; chạy lại không có `--dry-run` sẽ ghi dữ liệu. Hiện importer bắt buộc đúng 851 kỹ năng, vì vậy khi nguồn thay đổi số lượng thì bước này dừng, cần sửa importer và kiểm thử; không tự sửa số kiểm tra hoặc ghi dữ liệu bằng tay.
+2. Website sử dụng dữ liệu riêng trong `data/`. `scripts/import_data.py --source <thu_muc_snapshot> --output data --dry-run` thử nhập; chạy lại không có `--dry-run` sẽ ghi dữ liệu. Importer kiểm tra cấu trúc kỹ năng và tính số lượng từ snapshot thay vì yêu cầu cố định 851.
 3. Khi import thành công, kiểm tra danh mục, skill, ngự hồn, ID mới, sự thay đổi và test trước khi commit/push. Danh mục mới trên website cần được đối chiếu tên/ID với nguồn đội hình trước khi chạy lại bot đội.
 
 ## Đánh giá và đề xuất ngự hồn
 
 1. Sau khi có snapshot thức thần, chạy `node scrape_community.js` tại thư mục scraper cũ để lấy reviews và đề xuất ngự hồn vào snapshot riêng. Không dùng `--from-cache` nếu muốn tải mới.
-2. Website đọc `community/reviews.json` và `community/recommendations.json`; bot cũ chưa tự cập nhật hai file này. Chưa có bước chuyển đổi tự động được kiểm thử. Cần hỗ trợ phát triển importer, bảo vệ dữ liệu cá nhân và kiểm tra nguồn trước khi đưa dữ liệu mới lên website.
-3. Kiểm tra các mục mới/thay đổi/không còn ở nguồn, thử hiển thị, sau đó commit và push nhánh xuất bản. Test cộng đồng hiện khóa số lượng theo snapshot cũ nên cần cập nhật test trước khi nhập dữ liệu mới.
+2. Dashboard local tại `C:/Users/VanAnh/Documents/ChatGPT/Bot_Onmyoji/team-community/rank-dashboard/` có thể cào, so sánh, duyệt và nhập ngự đề xuất vào `community/recommendations.json`. Chỉ các trường dùng để hiển thị được nhập; không đưa ID tài khoản lên website. Đánh giá `community/reviews.json` không được cập nhật bởi luồng này.
+3. Kiểm tra các mục mới/thay đổi/không còn ở nguồn và thử hiển thị. Dashboard không tự commit hoặc xuất bản Thức Thần Lục.
 
 ## Giới hạn hiện tại
 
