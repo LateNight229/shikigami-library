@@ -1,6 +1,994 @@
 {
   "periods": [
     {
+      "id": "eb52105c6e29773a",
+      "label": "式神调整(11/25至今) · 2026-11-28 02:04:07 · 41 đội",
+      "snapshot": {
+        "source": {
+          "name": "阳间斗技",
+          "url": "https://yysrank.win/query/shishen",
+          "updatedAt": "2026-11-28 02:04:07",
+          "period": "式神调整(11/25至今)",
+          "rank": "Danh sĩ 0 sao trở lên",
+          "scope": {
+            "period": "式神调整(11/25至今)",
+            "rank": "名仕(0星)",
+            "upper": "不设上限"
+          },
+          "matches": 21348,
+          "field": "受制于",
+          "meaning": "Bị khắc chế theo bảng xếp hạng nguồn"
+        },
+        "collectedAt": "2026-11-28T03:41:39.579Z",
+        "unmatched": [],
+        "heroes": {
+          "255": {
+            "nameZh": "阎魔",
+            "nameVi": "Diêm Ma",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "256": {
+            "nameZh": "妖琴师",
+            "nameVi": "Yêu Cầm Sư",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "272": {
+            "nameZh": "一目连",
+            "nameVi": "Nhất Mục Liên",
+            "counters": [
+              {
+                "id": "590",
+                "nameZh": "妙主九命猫",
+                "nameVi": "Diệu Chủ Cửu Mệnh Miêu"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "345",
+                "nameZh": "鬼童丸",
+                "nameVi": "Quỷ Đồng Hoàn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "311": {
+            "nameZh": "面灵气",
+            "nameVi": "Diện Linh Khí",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "325": {
+            "nameZh": "八岐大蛇",
+            "nameVi": "Bát Kỳ Đại Xà",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "330": {
+            "nameZh": "不知火",
+            "nameVi": "Bất Tri Hỏa",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "577",
+                "nameZh": "鬼金羊",
+                "nameVi": "Quỷ Kim Dương"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "341": {
+            "nameZh": "鬼王酒吞童子",
+            "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "606",
+                "nameZh": "言和",
+                "nameVi": "Ngôn Hòa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "344": {
+            "nameZh": "云外镜",
+            "nameVi": "Vân Ngoại Kính",
+            "counters": [
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "345": {
+            "nameZh": "鬼童丸",
+            "nameVi": "Quỷ Đồng Hoàn",
+            "counters": [
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "362": {
+            "nameZh": "蝉冰雪女",
+            "nameVi": "Thiền Băng Tuyết Nữ",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "603",
+                "nameZh": "毗沙门天",
+                "nameVi": "Bì Sa Môn Thiên"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "363": {
+            "nameZh": "帝释天",
+            "nameVi": "Đế Thích Thiên",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "364": {
+            "nameZh": "阿修罗",
+            "nameVi": "Asura",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "385": {
+            "nameZh": "大夜摩天阎魔",
+            "nameVi": "Dạ Ma Thiên Diêm Ma",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "389": {
+            "nameZh": "须佐之男",
+            "nameVi": "Tu Tá Chi Nam",
+            "counters": [
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              },
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "345",
+                "nameZh": "鬼童丸",
+                "nameVi": "Quỷ Đồng Hoàn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "390": {
+            "nameZh": "神启荒",
+            "nameVi": "Thần Khải Hoang",
+            "counters": [
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "592",
+                "nameZh": "平将门",
+                "nameVi": "Bình Tướng Môn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "393": {
+            "nameZh": "禅心云外镜",
+            "nameVi": "Thiền Tâm Vân Ngoại Kính",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "606",
+                "nameZh": "言和",
+                "nameVi": "Ngôn Hòa"
+              },
+              {
+                "id": "351",
+                "nameZh": "铃鹿御前",
+                "nameVi": "Linh Lộc Ngự Tiền"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "550": {
+            "nameZh": "孔雀明王",
+            "nameVi": "Khổng Tước Minh Vương",
+            "counters": [
+              {
+                "id": "596",
+                "nameZh": "神无月",
+                "nameVi": "Thần Vô Nguyệt"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "604",
+                "nameZh": "不相狐禅",
+                "nameVi": "Bất Tương Hồ Thiền"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "561": {
+            "nameZh": "泷",
+            "nameVi": "Lung",
+            "counters": [
+              {
+                "id": "568",
+                "nameZh": "龙吟铃鹿御前",
+                "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "592",
+                "nameZh": "平将门",
+                "nameVi": "Bình Tướng Môn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "565": {
+            "nameZh": "福悦座敷童子",
+            "nameVi": "Phúc Duyệt Tọa Phu Đồng Tử",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              },
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "568": {
+            "nameZh": "龙吟铃鹿御前",
+            "nameVi": "Long Ngâm Linh Lộc Ngự Tiền",
+            "counters": [
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              },
+              {
+                "id": "577",
+                "nameZh": "鬼金羊",
+                "nameVi": "Quỷ Kim Dương"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "573": {
+            "nameZh": "龙珏",
+            "nameVi": "Long Giác",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "575": {
+            "nameZh": "封阳君",
+            "nameVi": "Phong Dương Quân",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "577",
+                "nameZh": "鬼金羊",
+                "nameVi": "Quỷ Kim Dương"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "577": {
+            "nameZh": "鬼金羊",
+            "nameVi": "Quỷ Kim Dương",
+            "counters": [
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "600",
+                "nameZh": "市加美",
+                "nameVi": "Thị Gia Mỹ"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "578": {
+            "nameZh": "神酿星熊童子",
+            "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử",
+            "counters": [
+              {
+                "id": "590",
+                "nameZh": "妙主九命猫",
+                "nameVi": "Diệu Chủ Cửu Mệnh Miêu"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "550",
+                "nameZh": "孔雀明王",
+                "nameVi": "Khổng Tước Minh Vương"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "581": {
+            "nameZh": "歌留多",
+            "nameVi": "Ca Lưu Đa",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "596",
+                "nameZh": "神无月",
+                "nameVi": "Thần Vô Nguyệt"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "583": {
+            "nameZh": "卑弥呼",
+            "nameVi": "Himiko",
+            "counters": [
+              {
+                "id": "600",
+                "nameZh": "市加美",
+                "nameVi": "Thị Gia Mỹ"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              },
+              {
+                "id": "385",
+                "nameZh": "大夜摩天阎魔",
+                "nameVi": "Dạ Ma Thiên Diêm Ma"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "585": {
+            "nameZh": "荒骷髅",
+            "nameVi": "Hoang Khô Lâu",
+            "counters": [
+              {
+                "id": "600",
+                "nameZh": "市加美",
+                "nameVi": "Thị Gia Mỹ"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "586": {
+            "nameZh": "云间不见岳",
+            "nameVi": "Vân Gian Bất Kiến Nhạc",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "591": {
+            "nameZh": "雪御前",
+            "nameVi": "Tuyết Ngự Tiền",
+            "counters": [
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "592",
+                "nameZh": "平将门",
+                "nameVi": "Bình Tướng Môn"
+              },
+              {
+                "id": "596",
+                "nameZh": "神无月",
+                "nameVi": "Thần Vô Nguyệt"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "592": {
+            "nameZh": "平将门",
+            "nameVi": "Bình Tướng Môn",
+            "counters": [
+              {
+                "id": "598",
+                "nameZh": "灼华桃花妖",
+                "nameVi": "Chước Hoa Đào Yêu"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "565",
+                "nameZh": "福悦座敷童子",
+                "nameVi": "Phúc Duyệt Tọa Phu Đồng Tử"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "593": {
+            "nameZh": "妖刀姬·绯夜猎刃",
+            "nameVi": "Yêu Đao Cơ · Phi Dạ Liệp Nhận",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "612",
+                "nameZh": "笼梦祸津神",
+                "nameVi": "Lung Mộng Họa Tân Thần"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "596": {
+            "nameZh": "神无月",
+            "nameVi": "Thần Vô Nguyệt",
+            "counters": [
+              {
+                "id": "385",
+                "nameZh": "大夜摩天阎魔",
+                "nameVi": "Dạ Ma Thiên Diêm Ma"
+              },
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "597": {
+            "nameZh": "葛叶",
+            "nameVi": "Cát Diệp",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "568",
+                "nameZh": "龙吟铃鹿御前",
+                "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+              },
+              {
+                "id": "390",
+                "nameZh": "神启荒",
+                "nameVi": "Thần Khải Hoang"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "598": {
+            "nameZh": "灼华桃花妖",
+            "nameVi": "Chước Hoa Đào Yêu",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "575",
+                "nameZh": "封阳君",
+                "nameVi": "Phong Dương Quân"
+              },
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "599": {
+            "nameZh": "蚀月吸血姬",
+            "nameVi": "Thực Nguyệt Hấp Huyết Cơ",
+            "counters": [
+              {
+                "id": "600",
+                "nameZh": "市加美",
+                "nameVi": "Thị Gia Mỹ"
+              },
+              {
+                "id": "608",
+                "nameZh": "石长姬",
+                "nameVi": "Thạch Trường Cơ"
+              },
+              {
+                "id": "330",
+                "nameZh": "不知火",
+                "nameVi": "Bất Tri Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "600": {
+            "nameZh": "市加美",
+            "nameVi": "Thị Gia Mỹ",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "573",
+                "nameZh": "龙珏",
+                "nameVi": "Long Giác"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "601": {
+            "nameZh": "思金神",
+            "nameVi": "Tư Kim Thần",
+            "counters": [
+              {
+                "id": "600",
+                "nameZh": "市加美",
+                "nameVi": "Thị Gia Mỹ"
+              },
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "602": {
+            "nameZh": "天火命铃彦姬",
+            "nameVi": "Thiên Hỏa Mệnh Linh Ngạn Cơ",
+            "counters": [
+              {
+                "id": "341",
+                "nameZh": "鬼王酒吞童子",
+                "nameVi": "Quỷ Vương Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "592",
+                "nameZh": "平将门",
+                "nameVi": "Bình Tướng Môn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "603": {
+            "nameZh": "毗沙门天",
+            "nameVi": "Bì Sa Môn Thiên",
+            "counters": [
+              {
+                "id": "345",
+                "nameZh": "鬼童丸",
+                "nameVi": "Quỷ Đồng Hoàn"
+              },
+              {
+                "id": "573",
+                "nameZh": "龙珏",
+                "nameVi": "Long Giác"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "604": {
+            "nameZh": "不相狐禅",
+            "nameVi": "Bất Tương Hồ Thiền",
+            "counters": [
+              {
+                "id": "393",
+                "nameZh": "禅心云外镜",
+                "nameVi": "Thiền Tâm Vân Ngoại Kính"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              },
+              {
+                "id": "345",
+                "nameZh": "鬼童丸",
+                "nameVi": "Quỷ Đồng Hoàn"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "607": {
+            "nameZh": "百羽凤凰火",
+            "nameVi": "Bách Vũ Phượng Hoàng Hỏa",
+            "counters": [
+              {
+                "id": "219",
+                "nameZh": "酒吞童子",
+                "nameVi": "Tửu Thôn Đồng Tử"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              }
+            ],
+            "sourceCount": 2
+          },
+          "608": {
+            "nameZh": "石长姬",
+            "nameVi": "Thạch Trường Cơ",
+            "counters": [
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "607",
+                "nameZh": "百羽凤凰火",
+                "nameVi": "Bách Vũ Phượng Hoàng Hỏa"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "609": {
+            "nameZh": "咲耶",
+            "nameVi": "Tiếu Gia",
+            "counters": [
+              {
+                "id": "568",
+                "nameZh": "龙吟铃鹿御前",
+                "nameVi": "Long Ngâm Linh Lộc Ngự Tiền"
+              },
+              {
+                "id": "550",
+                "nameZh": "孔雀明王",
+                "nameVi": "Khổng Tước Minh Vương"
+              },
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              }
+            ],
+            "sourceCount": 3
+          },
+          "612": {
+            "nameZh": "笼梦祸津神",
+            "nameVi": "Lung Mộng Họa Tân Thần",
+            "counters": [
+              {
+                "id": "578",
+                "nameZh": "神酿星熊童子",
+                "nameVi": "Thần Nhưỡng Tinh Hùng Đồng Tử"
+              },
+              {
+                "id": "351",
+                "nameZh": "铃鹿御前",
+                "nameVi": "Linh Lộc Ngự Tiền"
+              },
+              {
+                "id": "362",
+                "nameZh": "蝉冰雪女",
+                "nameVi": "Thiền Băng Tuyết Nữ"
+              }
+            ],
+            "sourceCount": 3
+          }
+        }
+      }
+    },
+    {
       "id": "20261010-sakuya",
       "label": "Kỳ trước · 咲耶 (10/10) · 683 đội",
       "snapshot": {

@@ -1,3 +1,256 @@
 {
-  "periods": []
+  "periods": [
+    {
+      "id": "5ab4f2cad9a6c6c0",
+      "snapshot": {
+        "source": {
+          "name": "阳间斗技",
+          "url": "https://yysrank.win/query/shishen",
+          "updatedAt": "2026-11-16 02:02:17",
+          "period": "咲耶(10/10至今)",
+          "rank": "Danh sĩ 0 sao trở lên",
+          "matches": 222843,
+          "metric": "外战胜率"
+        },
+        "unmatched": [],
+        "heroes": {
+          "219": {
+            "winRate": 48.82,
+            "pickRate": 4.36,
+            "banRate": 0
+          },
+          "255": {
+            "winRate": 43.78,
+            "pickRate": 15.59,
+            "banRate": 4.83
+          },
+          "272": {
+            "winRate": 45.56,
+            "pickRate": 2.44,
+            "banRate": 0.01
+          },
+          "311": {
+            "winRate": 43.1,
+            "pickRate": 5.18,
+            "banRate": 0.11
+          },
+          "316": {
+            "winRate": 43.27,
+            "pickRate": 2.58,
+            "banRate": 0.28
+          },
+          "330": {
+            "winRate": 51.94,
+            "pickRate": 21.65,
+            "banRate": 1.22
+          },
+          "341": {
+            "winRate": 52.48,
+            "pickRate": 23.63,
+            "banRate": 1.97
+          },
+          "343": {
+            "winRate": 48.3,
+            "pickRate": 2.31,
+            "banRate": 0.04
+          },
+          "344": {
+            "winRate": 50.53,
+            "pickRate": 4.71,
+            "banRate": 0.01
+          },
+          "345": {
+            "winRate": 49.35,
+            "pickRate": 6.97,
+            "banRate": 4.05
+          },
+          "362": {
+            "winRate": 58.58,
+            "pickRate": 4.84,
+            "banRate": 0.1
+          },
+          "363": {
+            "winRate": 46.74,
+            "pickRate": 5.25,
+            "banRate": 0.03
+          },
+          "372": {
+            "winRate": 40.31,
+            "pickRate": 3.1,
+            "banRate": 0.01
+          },
+          "385": {
+            "winRate": 51.44,
+            "pickRate": 5.76,
+            "banRate": 0.06
+          },
+          "389": {
+            "winRate": 48.91,
+            "pickRate": 6.09,
+            "banRate": 2.86
+          },
+          "390": {
+            "winRate": 48.71,
+            "pickRate": 4.59,
+            "banRate": 0.01
+          },
+          "393": {
+            "winRate": 52.31,
+            "pickRate": 14.52,
+            "banRate": 7.35
+          },
+          "550": {
+            "winRate": 53.88,
+            "pickRate": 6.02,
+            "banRate": 1.29
+          },
+          "561": {
+            "winRate": 50.3,
+            "pickRate": 3.22,
+            "banRate": 0.02
+          },
+          "565": {
+            "winRate": 45.16,
+            "pickRate": 2.42,
+            "banRate": 0.01
+          },
+          "568": {
+            "winRate": 51.55,
+            "pickRate": 10.13,
+            "banRate": 0.04
+          },
+          "569": {
+            "winRate": 46.64,
+            "pickRate": 2.09,
+            "banRate": 0
+          },
+          "570": {
+            "winRate": 51.16,
+            "pickRate": 3.41,
+            "banRate": 0.01
+          },
+          "573": {
+            "winRate": 50.14,
+            "pickRate": 14.24,
+            "banRate": 0.05
+          },
+          "575": {
+            "winRate": 52.13,
+            "pickRate": 30.62,
+            "banRate": 5.85
+          },
+          "577": {
+            "winRate": 49.58,
+            "pickRate": 5.7,
+            "banRate": 0.02
+          },
+          "578": {
+            "winRate": 55.35,
+            "pickRate": 7.48,
+            "banRate": 1.43
+          },
+          "583": {
+            "winRate": 46.78,
+            "pickRate": 14.71,
+            "banRate": 0.72
+          },
+          "584": {
+            "winRate": 43.29,
+            "pickRate": 2.85,
+            "banRate": 0.01
+          },
+          "585": {
+            "winRate": 49.39,
+            "pickRate": 13.56,
+            "banRate": 0.19
+          },
+          "586": {
+            "winRate": 45.66,
+            "pickRate": 3.81,
+            "banRate": 0.05
+          },
+          "590": {
+            "winRate": 51.13,
+            "pickRate": 2.06,
+            "banRate": 0.06
+          },
+          "591": {
+            "winRate": 47.48,
+            "pickRate": 2.47,
+            "banRate": 0
+          },
+          "592": {
+            "winRate": 49.84,
+            "pickRate": 28.79,
+            "banRate": 7.51
+          },
+          "596": {
+            "winRate": 49.57,
+            "pickRate": 30.14,
+            "banRate": 3.4
+          },
+          "597": {
+            "winRate": 56.58,
+            "pickRate": 18.49,
+            "banRate": 30.15
+          },
+          "598": {
+            "winRate": 55.59,
+            "pickRate": 7.44,
+            "banRate": 0.11
+          },
+          "599": {
+            "winRate": 51.9,
+            "pickRate": 8.24,
+            "banRate": 0.16
+          },
+          "600": {
+            "winRate": 54.2,
+            "pickRate": 2.64,
+            "banRate": 0.03
+          },
+          "601": {
+            "winRate": 47.14,
+            "pickRate": 10.16,
+            "banRate": 0.04
+          },
+          "602": {
+            "winRate": 48.17,
+            "pickRate": 5.77,
+            "banRate": 0.03
+          },
+          "603": {
+            "winRate": 50.49,
+            "pickRate": 21.25,
+            "banRate": 1.2
+          },
+          "604": {
+            "winRate": 48.73,
+            "pickRate": 17.74,
+            "banRate": 4.57
+          },
+          "606": {
+            "winRate": 50.31,
+            "pickRate": 3.3,
+            "banRate": 0
+          },
+          "607": {
+            "winRate": 56.62,
+            "pickRate": 27.78,
+            "banRate": 10.29
+          },
+          "608": {
+            "winRate": 49.8,
+            "pickRate": 23.49,
+            "banRate": 8.89
+          },
+          "609": {
+            "winRate": 42.03,
+            "pickRate": 7.04,
+            "banRate": 0.6
+          }
+        }
+      }
+    }
+  ]
 }

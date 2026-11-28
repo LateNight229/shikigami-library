@@ -2,248 +2,233 @@
   "source": {
     "name": "阳间斗技",
     "url": "https://yysrank.win/query/shishen",
-    "updatedAt": "2026-11-16 02:02:17",
-    "period": "咲耶(10/10至今)",
+    "updatedAt": "2026-11-28 02:04:07",
+    "period": "式神调整(11/25至今)",
     "rank": "Danh sĩ 0 sao trở lên",
-    "matches": 222843,
+    "matches": 21348,
     "metric": "外战胜率"
   },
   "unmatched": [],
   "heroes": {
-    "219": {
-      "winRate": 48.82,
-      "pickRate": 4.36,
-      "banRate": 0
-    },
     "255": {
-      "winRate": 43.78,
-      "pickRate": 15.59,
-      "banRate": 4.83
+      "winRate": 42.87,
+      "pickRate": 20.01,
+      "banRate": 5.55
+    },
+    "256": {
+      "winRate": 39.52,
+      "pickRate": 3,
+      "banRate": 0.01
     },
     "272": {
-      "winRate": 45.56,
-      "pickRate": 2.44,
-      "banRate": 0.01
+      "winRate": 49.13,
+      "pickRate": 2.93,
+      "banRate": 0.05
     },
     "311": {
-      "winRate": 43.1,
-      "pickRate": 5.18,
-      "banRate": 0.11
+      "winRate": 43.51,
+      "pickRate": 3.88,
+      "banRate": 0.07
     },
-    "316": {
-      "winRate": 43.27,
-      "pickRate": 2.58,
-      "banRate": 0.28
+    "325": {
+      "winRate": 48.55,
+      "pickRate": 2.88,
+      "banRate": 0
     },
     "330": {
-      "winRate": 51.94,
-      "pickRate": 21.65,
-      "banRate": 1.22
+      "winRate": 54.94,
+      "pickRate": 16.5,
+      "banRate": 3.08
     },
     "341": {
-      "winRate": 52.48,
-      "pickRate": 23.63,
-      "banRate": 1.97
-    },
-    "343": {
-      "winRate": 48.3,
-      "pickRate": 2.31,
-      "banRate": 0.04
+      "winRate": 55.03,
+      "pickRate": 29.74,
+      "banRate": 4.56
     },
     "344": {
-      "winRate": 50.53,
-      "pickRate": 4.71,
-      "banRate": 0.01
-    },
-    "345": {
-      "winRate": 49.35,
-      "pickRate": 6.97,
-      "banRate": 4.05
-    },
-    "362": {
-      "winRate": 58.58,
-      "pickRate": 4.84,
+      "winRate": 50.85,
+      "pickRate": 4.95,
       "banRate": 0.1
     },
+    "345": {
+      "winRate": 53.08,
+      "pickRate": 3.55,
+      "banRate": 1.06
+    },
+    "362": {
+      "winRate": 60.88,
+      "pickRate": 8.94,
+      "banRate": 4.86
+    },
     "363": {
-      "winRate": 46.74,
-      "pickRate": 5.25,
-      "banRate": 0.03
-    },
-    "372": {
-      "winRate": 40.31,
-      "pickRate": 3.1,
-      "banRate": 0.01
-    },
-    "385": {
-      "winRate": 51.44,
-      "pickRate": 5.76,
-      "banRate": 0.06
-    },
-    "389": {
-      "winRate": 48.91,
-      "pickRate": 6.09,
-      "banRate": 2.86
-    },
-    "390": {
-      "winRate": 48.71,
-      "pickRate": 4.59,
-      "banRate": 0.01
-    },
-    "393": {
-      "winRate": 52.31,
-      "pickRate": 14.52,
-      "banRate": 7.35
-    },
-    "550": {
-      "winRate": 53.88,
-      "pickRate": 6.02,
-      "banRate": 1.29
-    },
-    "561": {
-      "winRate": 50.3,
-      "pickRate": 3.22,
+      "winRate": 43.25,
+      "pickRate": 3.39,
       "banRate": 0.02
     },
+    "364": {
+      "winRate": 43.09,
+      "pickRate": 2.63,
+      "banRate": 0.04
+    },
+    "385": {
+      "winRate": 51.11,
+      "pickRate": 5.46,
+      "banRate": 0.09
+    },
+    "389": {
+      "winRate": 47.65,
+      "pickRate": 3.51,
+      "banRate": 0.49
+    },
+    "390": {
+      "winRate": 49.25,
+      "pickRate": 3.05,
+      "banRate": 0.02
+    },
+    "393": {
+      "winRate": 57.3,
+      "pickRate": 17.02,
+      "banRate": 3.9
+    },
+    "550": {
+      "winRate": 55.23,
+      "pickRate": 8.39,
+      "banRate": 1.39
+    },
+    "561": {
+      "winRate": 49.03,
+      "pickRate": 3.38,
+      "banRate": 0.01
+    },
     "565": {
-      "winRate": 45.16,
-      "pickRate": 2.42,
+      "winRate": 49.81,
+      "pickRate": 3.29,
       "banRate": 0.01
     },
     "568": {
-      "winRate": 51.55,
-      "pickRate": 10.13,
+      "winRate": 52.45,
+      "pickRate": 9.73,
       "banRate": 0.04
     },
-    "569": {
-      "winRate": 46.64,
-      "pickRate": 2.09,
-      "banRate": 0
-    },
-    "570": {
-      "winRate": 51.16,
-      "pickRate": 3.41,
-      "banRate": 0.01
-    },
     "573": {
-      "winRate": 50.14,
-      "pickRate": 14.24,
-      "banRate": 0.05
+      "winRate": 49.29,
+      "pickRate": 13.7,
+      "banRate": 0.18
     },
     "575": {
-      "winRate": 52.13,
-      "pickRate": 30.62,
-      "banRate": 5.85
+      "winRate": 54.87,
+      "pickRate": 20.02,
+      "banRate": 10.55
     },
     "577": {
-      "winRate": 49.58,
-      "pickRate": 5.7,
+      "winRate": 53.29,
+      "pickRate": 6.04,
       "banRate": 0.02
     },
     "578": {
-      "winRate": 55.35,
-      "pickRate": 7.48,
-      "banRate": 1.43
+      "winRate": 58.84,
+      "pickRate": 14.59,
+      "banRate": 8.01
+    },
+    "581": {
+      "winRate": 44.67,
+      "pickRate": 3.29,
+      "banRate": 0.02
     },
     "583": {
-      "winRate": 46.78,
-      "pickRate": 14.71,
-      "banRate": 0.72
-    },
-    "584": {
-      "winRate": 43.29,
-      "pickRate": 2.85,
-      "banRate": 0.01
+      "winRate": 39.41,
+      "pickRate": 5.4,
+      "banRate": 0.41
     },
     "585": {
-      "winRate": 49.39,
-      "pickRate": 13.56,
-      "banRate": 0.19
+      "winRate": 41.7,
+      "pickRate": 8.95,
+      "banRate": 0.27
     },
     "586": {
-      "winRate": 45.66,
-      "pickRate": 3.81,
-      "banRate": 0.05
-    },
-    "590": {
-      "winRate": 51.13,
-      "pickRate": 2.06,
+      "winRate": 48.87,
+      "pickRate": 6.16,
       "banRate": 0.06
     },
     "591": {
-      "winRate": 47.48,
-      "pickRate": 2.47,
+      "winRate": 45.73,
+      "pickRate": 2.1,
       "banRate": 0
     },
     "592": {
-      "winRate": 49.84,
-      "pickRate": 28.79,
-      "banRate": 7.51
+      "winRate": 50,
+      "pickRate": 24.26,
+      "banRate": 8.52
+    },
+    "593": {
+      "winRate": 35.87,
+      "pickRate": 3.14,
+      "banRate": 0.23
     },
     "596": {
-      "winRate": 49.57,
-      "pickRate": 30.14,
-      "banRate": 3.4
+      "winRate": 49.63,
+      "pickRate": 20.89,
+      "banRate": 4.79
     },
     "597": {
-      "winRate": 56.58,
-      "pickRate": 18.49,
-      "banRate": 30.15
+      "winRate": 49.17,
+      "pickRate": 8.94,
+      "banRate": 8.55
     },
     "598": {
-      "winRate": 55.59,
-      "pickRate": 7.44,
-      "banRate": 0.11
+      "winRate": 55.83,
+      "pickRate": 4.06,
+      "banRate": 0.09
     },
     "599": {
-      "winRate": 51.9,
-      "pickRate": 8.24,
-      "banRate": 0.16
+      "winRate": 45.06,
+      "pickRate": 6.01,
+      "banRate": 0.69
     },
     "600": {
-      "winRate": 54.2,
-      "pickRate": 2.64,
-      "banRate": 0.03
+      "winRate": 57.57,
+      "pickRate": 8.82,
+      "banRate": 1.05
     },
     "601": {
-      "winRate": 47.14,
-      "pickRate": 10.16,
-      "banRate": 0.04
+      "winRate": 45.13,
+      "pickRate": 34.46,
+      "banRate": 2.36
     },
     "602": {
-      "winRate": 48.17,
-      "pickRate": 5.77,
-      "banRate": 0.03
+      "winRate": 42.13,
+      "pickRate": 2.11,
+      "banRate": 0.01
     },
     "603": {
-      "winRate": 50.49,
-      "pickRate": 21.25,
-      "banRate": 1.2
+      "winRate": 48.29,
+      "pickRate": 10.21,
+      "banRate": 1.16
     },
     "604": {
-      "winRate": 48.73,
-      "pickRate": 17.74,
-      "banRate": 4.57
-    },
-    "606": {
-      "winRate": 50.31,
-      "pickRate": 3.3,
-      "banRate": 0
+      "winRate": 46.66,
+      "pickRate": 6.9,
+      "banRate": 0.62
     },
     "607": {
-      "winRate": 56.62,
-      "pickRate": 27.78,
-      "banRate": 10.29
+      "winRate": 59.97,
+      "pickRate": 24.18,
+      "banRate": 6.15
     },
     "608": {
-      "winRate": 49.8,
-      "pickRate": 23.49,
-      "banRate": 8.89
+      "winRate": 50.1,
+      "pickRate": 30.02,
+      "banRate": 10.93
     },
     "609": {
-      "winRate": 42.03,
-      "pickRate": 7.04,
-      "banRate": 0.6
+      "winRate": 40.58,
+      "pickRate": 8.1,
+      "banRate": 0.3
+    },
+    "612": {
+      "winRate": 46.62,
+      "pickRate": 36.61,
+      "banRate": 9.13
     }
   }
 }
